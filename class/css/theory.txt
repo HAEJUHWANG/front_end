@@ -1,0 +1,12 @@
+css 포함방법
+
+1.inline
+
+ex)
+<div style="color:red"></div>
+
+2.embed
+
+ex)
+
+

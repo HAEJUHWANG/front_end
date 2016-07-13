@@ -2,13 +2,13 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>닷홈 회원가입</title>
 </head>
 <br>
     <div>
 
         <header>
-        <h1><a href="/"><img src="images/logo.png"></a></h1>
+        <h1><a href="/"><img src="images/logo.png" alt="닷홈로고"></a></h1>
             <div>
                 <ul>
                     <li><a href="#">로그인</a></li>
@@ -115,8 +115,8 @@
                   </div>
                 </div>
 
-                <label for="">이름(필수)</label>
-                <input type="text" placeholder="이름(필수)">
+                <label for="name">이름(필수)</label>
+                <input type="text" placeholder="이름(필수)" id="name">
                 <div>이름 또는 회사명을 입력해주세요</div>
 
 
@@ -127,7 +127,7 @@
                 <div>옆에 단어를 입력 해주세요</div>
 
                 <div>
-                  <lable>기본이메일(필수)</lable>
+                  <label>기본이메일(필수)</label>
                   <input type="text" title="기본 이메일 앞자리" placeholder="기본 이메일 주소">
                   <span>@</span>
                   <input type="text" title="기본 이메일 뒷자리" placeholder="직접입력">
@@ -138,38 +138,38 @@
                 <input type="checkbox" id="email-check">
                 <label for="email-check">이메일</label>
 
-                <input type="checkbox" id="문자">
-                <label for="문자">문자</label>
+                <input type="checkbox" id="rr">
+                <label for="rr">문자</label>
               </div>
 
                 <div>중복회원가입 이용제한, 무료호스팅은 (본인실명1회)만 가능합니다.</div>
 
                 <div>
-                <input type="checkbox" id="이용약관">
-                <label for="이용약관">이용약관</label>
+                <input type="checkbox" id="ff">
+                <label for="ff">이용약관</label>
                 <button type="button">전문보기</button>
                 </div>
 
                 <div>
-                <input type="checkbox" id="서비스 이용약관">
-                <label for="서비스 이용약관">서비스 이용약관</label>
+                <input type="checkbox" id="ss">
+                <label for="ss">서비스 이용약관</label>
                 <button type="button">전문보기</button>
                 </div>
 
                 <div>
-                <input type="checkbox" id="개인정보 이용동의">
-                <label for="개인정보 이용동의">개인정보 이용동의</label>
+                <input type="checkbox" id="qq">
+                <label for="qq">개인정보 이용동의</label>
                 <button type="button">전문보기</button>
                 </div>
 
-                <input type="checkbox" id="모두 동의합니다">
-                <label for="모두 동의합니다">모두 동의합니다</label>
+                <input type="checkbox" id="mm">
+                <label for="mm">모두 동의합니다</label>
 
                 <div>
                 <button type="button">가입하기기</button>
                 </div>
             </fieldset>
-        </secion>
+        </section>
 
         <footer>
 
@@ -177,6 +177,10 @@
 
     </div>
 
-
+    <p>
+      <a href="http://validator.kldp.org/check?uri=referer"
+         onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+              src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+    </p>
 </body>
 </html>
