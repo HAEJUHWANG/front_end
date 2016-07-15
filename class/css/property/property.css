@@ -124,3 +124,79 @@ th, td {
   background-color: gray;
   clear: both;
 }
+
+/*position*/
+
+.relative-wrap{
+ width: 300px;
+  height: 200px;
+  border: 1px solid darkgoldenrod;
+  margin-bottom: 100px;
+}
+.position-relative{
+  position:relative;
+  top:20px;
+  left: 30px;
+
+  background-color: salmon;
+}
+
+.outer{
+  position: relative;
+  width: 500px;
+  height: 500px;
+
+  background-color: greenyellow;
+}
+
+.absolute-wrap{
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid royalblue;
+  margin-bottom: 100px;
+}
+
+.position-absolute{
+  position:absolute;
+  top: 20px;
+  left: 30px;
+
+  background-color: blueviolet;
+}
+
+.position-fixed{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.overlap-parent{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid darkseagreen;
+}
+
+.overlap-a{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+
+.overlap-b{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: seagreen;
+}
