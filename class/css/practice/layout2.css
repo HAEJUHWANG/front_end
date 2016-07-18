@@ -1,0 +1,41 @@
+.warp{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background: wheat;
+}
+
+.container{
+  margin: 20px 0;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav{
+  width: 160px;
+  height: 400px;
+  background: lightpink;
+  float: left;
+}
+
+.content{
+  width: 390px;
+  height: 700px;
+  background: palegreen;
+  float: left;
+  margin-left: 20px;
+}
+
+
+.footer{
+  height: 150px;
+  background: mediumturquoise;
+  clear: both;
+}

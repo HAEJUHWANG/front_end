@@ -1,0 +1,64 @@
+.warp{
+  width: 980px;
+  margin: 0 auto;
+  color: white;
+  font-size: 30px;
+  font-family: °íµñ, serif;
+  font-weight: inherit;
+}
+
+.header{
+  height: 100px;
+  background: darkseagreen;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.a{
+  float: left;
+  width: 380px;
+}
+
+.first-tile{
+  background: brown;
+  height: 300px;
+}
+
+.and-another {
+  background: dodgerblue;
+  height: 400px;
+}
+
+.b{
+  float: left;
+}
+
+.another-tile {
+  background: darkgoldenrod;
+  width: 600px;
+  height: 600px;
+}
+
+.the-forth-one{
+  background: darkblue;
+  width: 400px;
+  height: 100px;
+  float: left;
+}
+
+.the-last{
+  background: darkgreen;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.footer{
+  height: 100px;
+  background: darkseagreen;
+  clear: both;
+}

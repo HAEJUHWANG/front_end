@@ -18,8 +18,10 @@
   margin-bottom: 20px;
 }
 
-.container{
-  height: 800px;
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .lnb{
