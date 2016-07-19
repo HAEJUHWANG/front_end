@@ -1,0 +1,54 @@
+.warp{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background: paleturquoise;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+
+.content1{
+  width: 245px;
+  height: 900px;
+  background: palegoldenrod;
+  float: left;
+}
+.content2{
+  width: 245px;
+  height: 900px;
+  background: lightsalmon;
+  float: left;
+}
+
+.right{
+  float: left;
+  width: 490px;
+}
+
+.content3{
+  height: 450px;
+  background: aquamarine;
+}
+
+.content4{
+  height: 450px;
+  background: khaki;
+}
+
+.footer{
+  height: 100px;
+  background: palegreen;
+  clear: both;
+}
+

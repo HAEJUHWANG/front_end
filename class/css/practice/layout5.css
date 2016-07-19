@@ -1,0 +1,181 @@
+.warp{
+  width: 1840px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  margin-bottom: 20px;
+  background: aquamarine;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.a{
+  float: left;
+}
+
+.section1{
+  width: 600px;
+  height: 300px;
+  background: mediumpurple;
+}
+.section2{
+  margin: 20px 0;
+}
+
+.content1{
+  height: 300px;
+  width: 290px;
+  background: greenyellow;
+  float: left;
+}
+
+.content2{
+  float: left;
+}
+.content2-1{
+  height: 80px;
+  width: 290;
+  background: skyblue;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.content2-2{
+  height: 200px;
+  width: 290px;
+  background: lightcoral;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.section3{
+  width: 600px;
+  height: 200px;
+  background: greenyellow;
+  clear: both;
+}
+
+.section3:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+
+
+.b{
+  margin: 0 20px;
+  float: left;
+}
+
+.section4{
+  width: 290px;
+  height: 500px;
+  background: greenyellow;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.section5{
+  float: left;
+}
+
+.content3{
+  width: 290px;
+  height: 100px;
+  background: deepskyblue;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.content4{
+  width: 290px;
+  height: 380px;
+  background: lightcoral;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.section6{
+  width: 600px;
+  height: 320px;
+  background: mediumpurple;
+  clear: both;
+}
+
+.section6:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+
+.c{
+ float: left;
+}
+
+.section7{
+  width: 600px;
+  height: 120px;
+  margin-bottom: 20px;
+  background: greenyellow;
+}
+
+.section8{
+
+}
+
+.content5{
+  width: 180px;
+  height: 120px;
+  background: skyblue;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+.content6{
+  width: 400px;
+  height: 120px;
+  margin-bottom: 20px;
+  background: lightcoral;
+  float: left;
+}
+
+
+.section9{
+  width: 600px;
+  height: 440px;
+  background: mediumpurple;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+.section9:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section10{
+  width: 600px;
+  height: 100px;
+  background: cornflowerblue;
+}
+
+.footer{
+  height: 100px;
+  margin-top: 20px;
+  background: aquamarine;
+  clear: both;
+}
+
+
+
