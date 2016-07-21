@@ -1,0 +1,128 @@
+
+.header{
+  height: 135px;
+  border-top: 3px solid #ff7c98;
+  position: relative;
+}
+
+.small-wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -46px;
+}
+
+.util-sns{
+  float: left;
+  margin-top: 50px;
+}
+
+.util-sns-item{
+  float: left;
+  margin-right: 10px;
+}
+
+.util-sns-link{
+  display: block;
+}
+
+.cs{
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
+
+.cs:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cs-item{
+  float: left;
+  font-size: 11px;
+  margin-left: 20px;
+}
+
+.btn-wrap{
+  position: absolute;
+  right: 0;
+  top: 39px;
+}
+
+.btn-search{
+  width: 54px;
+  height: 54px;
+  text-indent: -9999px;
+  border: 0px;
+  display: block;
+  background: url(../image/icon_search.png) no-repeat;
+  cursor: pointer;
+
+}
+
+.nav{
+  height: 47px;
+  border-top: 1px solid #e2d9d6;
+  border-bottom: 2px solid #3f291a;
+}
+
+.nav-member{
+  float: left;
+}
+
+.nav-member-item{
+  float: left;
+}
+
+/* 임시 안보임*/
+
+.gnb-depth2{
+  display: none;
+}
+
+.gnb{
+  float: right;
+}
+
+.gnb-depth1-item{
+  float: left;
+}
+
+.gnb-depth1-link{
+  display: block;
+  height: 12px;
+  background: url(../image/gnb_menu.png) no-repeat;
+  text-indent: -99999em;
+}
+
+.flavor{
+  width: 164px;
+  background-position: -133px 0;
+}
+
+.menu{
+  width: 41px;
+  background-position: -416px 0;
+}
+
+.event{
+  width: 43px;
+  background-position: -576px 0;
+}
+
+.store{
+  width: 42px;
+  background-position: -737px 0;
+}
+
+.about{
+  width: 50px;
+  background-position: -896px 0;
+}
