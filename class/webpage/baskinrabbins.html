@@ -5,6 +5,8 @@
   <title>베스킨라빈스</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/baskinrabbins.css"/>
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/gnb.js"></script>
 </head>
 
 <body>
@@ -65,26 +67,38 @@
 
   <nav class="nav">
 
+
   <div class="small-wrap">
 
     <ul class="nav-member">
-      <li class="nav-member-item"><a href="" class="nav-member-link">LOGIN</a> </li>
-      <li class="nav-member-item"><a href="" class="nav-member-link">JOIN</a> </li>
+      <li class="nav-member-item"><a href="" class="nav-member-link login">LOGIN</a> </li>
+
+      <!--[D]로그인 되었을 때 표시되는 태그라인-->
+      <!--
+      <li class="nav-member-item"><a href="" class="nav-member-link logout">LOGOUT</a> </li>
+      -->
+
+      <li class="nav-member-item"><a href="" class="nav-member-link join">JOIN</a> </li>
+
+      <!--[D]로그인 되었을 때 표시되는 태그라인-->
+      <!--
+      <li class="nav-member-item"><a href="" class="nav-member-link mypage">MY PAGE</a> </li>
+      -->
     </ul>
 
     <ul class="gnb">
 
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item flavor">
           <a href="" class="gnb-depth1-link flavor">FLAVOR OF THE MONTH</a>
-        <ul class="gnb-depth2">
+        <ul class="gnb-depth2 img">
           <li class="gnb-depth2-item">
             <a href=""><img src="image/img_month_1607.png" alt="이달의맛 웰컴투 정글" class="gnb-depth2-link"></a>
           </li>
         </ul>
       </li>
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item menu">
         <a href="" class="gnb-depth1-link menu">MENU</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">아이스크림</a> </li>
@@ -95,7 +109,7 @@
         </ul>
       </li>
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item event">
         <a href="" class="gnb-depth1-link event">EVENT</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">진행중이벤트</a> </li>
@@ -103,7 +117,7 @@
         </ul>
       </li>
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item store">
         <a href="" class="gnb-depth1-link store">STORE</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">매장찾기</a> </li>
@@ -111,7 +125,7 @@
         </ul>
       </li>
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item about">
         <a href="" class="gnb-depth1-link about">ABOUT</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">공지사항</a> </li>
@@ -126,6 +140,8 @@
     </ul>
 
   </div>
+
+    <div class="gnb-bg"></div>
 
   </nav>
 
