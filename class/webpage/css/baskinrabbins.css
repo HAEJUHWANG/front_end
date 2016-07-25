@@ -67,11 +67,18 @@
 
 }
 
+
+.nav-wrap{
+  position: relative;
+}
+
+
 .nav{
   height: 47px;
   border-top: 1px solid #e2d9d6;
-  border-bottom: 2px solid #3f291a;
+  border-bottom: 1px solid #3f291a;
   position: relative;
+  z-index: 10;
 }
 
 .nav-member{
@@ -117,7 +124,6 @@
 
 .gnb{
   float: right;
-  margin-top: 17px;
 }
 
 .gnb-depth1-item{
@@ -155,43 +161,44 @@
   height: 12px;
   background: url(../image/gnb_menu.png) no-repeat;
   text-indent: -99999em;
+  padding: 17px 0 18px;
 }
 
 .gnb-depth1-link.flavor{
   width: 164px;
-  background-position: -133px 0;
+  background-position: -133px 17px;
 }
 
 .gnb-depth1-link.menu{
   width: 41px;
-  background-position: -416px 0;
+  background-position: -416px 17px;
 }
 
 .gnb-depth1-link.event{
   width: 43px;
-  background-position: -576px 0;
+  background-position: -576px 17px;
 }
 
 .gnb-depth1-link.store{
   width: 42px;
-  background-position: -737px 0;
+  background-position: -737px 17px;
 }
 
 .gnb-depth1-link.about{
   width: 50px;
-  background-position: -896px 0;
+  background-position: -896px 17px;
 }
 
 
 .gnb-depth2{
-  margin-top: 60px;
+  margin-top: 40px;
   position: absolute;
   z-index: 10;
   display: none;
 }
 
 .gnb-depth2.img{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .gnb-depth2-item{
@@ -205,18 +212,29 @@
 
 .gnb-bg{
   background: #fff;
-  height: 274px;
+  /*height: 274px;*/
   width: 100%;
   position: absolute;
-  top: 49px;
+  top: 48px;
   left: 0;
   border-bottom: 1px solid #3f291a;
-  display: none;
+
 }
 
+.banner-top{
+  display: block;
+  height: 150px;
+  text-indent: -99999em;
+  background: #54bdec url(../image/img_flaovr_month_top.jpg) no-repeat 50% 0;
+  margin-bottom: 3px;
+}
 
-
-
+.banner-bottom{
+  display: block;
+  height: 697px;
+  text-indent: -99999em;
+  background: #f0eb1d url(../image/img_main_banner_2.jpg) no-repeat 50% 0;
+}
 
 
 
