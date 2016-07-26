@@ -60,7 +60,7 @@
   width: 54px;
   height: 54px;
   text-indent: -9999px;
-  border: 0px;
+  border: 0;
   display: block;
   background: url(../image/icon_search.png) no-repeat;
   cursor: pointer;
@@ -198,7 +198,7 @@
 }
 
 .gnb-depth2.img{
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .gnb-depth2-item{
@@ -236,6 +236,155 @@
   background: #f0eb1d url(../image/img_main_banner_2.jpg) no-repeat 50% 0;
 }
 
+.br-event-heading{
+  width: 87px;
+  height: 14px;
+  text-indent: -99999em;
+  background: url(../image/h_event.png) no-repeat ;
+  margin: 100px auto 50px;
+}
+
+
+.event-list:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.event-list-item{
+  float: left;
+  margin-right: 16px;
+  width: 288px;
+}
+
+.event-list-item.last{
+  margin-right: 0;
+}
+
+/* 가상 selector 쓰는방법*/
+
+/* 1.last-child
+
+.event-list-item:last-child{
+  margin-right: 0;
+}
+
+ 2.first-child
+
+.event-list-item{
+  float: left;
+  margin-left: 16px;
+}
+
+.event-list-item:first-child{
+  margin-left: 0;
+}
+
+*/
+
+.event-list-item .event-item-module .event-item-title img{
+  width: 288px;
+}
+
+.event-item-text{
+  margin-top: 20px;
+}
+
+/*가상 selector 쓰는방법2*/
+
+/*
+
+3.nth-child
+
+*/
+
+.event-item-text:nth-child(3){
+  height: 54px;
+  font-size: 17px;
+  line-height: 1.6;
+  word-break: break-all;
+  text-align: justify;
+}
+
+.event-item-text:nth-child(3) a{
+  color: #000;
+}
+
+.ir-store-event{
+  width: 114px;
+  height: 22px;
+  text-indent: -99999em;
+  background: url(../image/stit_store.gif) no-repeat;
+
+}
+
+.ir-happy-event{
+  width: 148px;
+  height: 22px;
+  text-indent: -99999em;
+  background: url(../image/stit_happypoint.gif) no-repeat;
+}
+
+.menu-list{
+  width: 1200px;
+  height: 1065px;
+  text-indent: -99999em;
+  background: url(../image/img_menu_list.png) no-repeat;
+}
+
+.br-menu-heading{
+  width: 84px;
+  height: 14px;
+  text-indent: -99999em;
+  background: url(../image/h_menu.png) no-repeat 0 78px;
+  margin: 0 auto ;
+  padding: 78px 0 0;
+}
+
+.br-menu{
+  background: url(../image/bg_menu.jpg) no-repeat 50% 0;
+  margin-top: 100px;
+}
+
+.br-store-heading{
+  width: 87px;
+  height: 14px;
+  text-indent: -99999em;
+  background: url(../image/h_store.png) no-repeat 0 95px;
+  margin: 0 auto ;
+  padding: 95px 0 50px;
+}
+
+.happy-order-heading{
+  width: 244px;
+  height: 14px;
+  text-indent: -99999em;
+  background: url(../image/h_happyorder_delivery.png) no-repeat 0 95px;
+  margin: 0 auto ;
+  padding: 95px 0 50px;
+}
+
+.br-store, .happy-order{
+  width: 600px;
+  float: left;
+}
+
+
+.br-store-link{
+  display: block;
+  width: 600px;
+  height: 260px;
+  text-indent: -99999em;
+  background: url("../image/img_store.jpg") no-repeat;
+}
+
+.happy-order-link{
+  display: block;
+  width: 600px;
+  height: 260px;
+  text-indent: -99999em;
+  background: url("../image/img_happyorder_delivery.jpg") no-repeat;
+}
 
 
 
@@ -249,3 +398,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
