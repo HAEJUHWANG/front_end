@@ -387,30 +387,41 @@
 }
 
 
+.snsbox-heading {
+  width: 36px;
+  height: 13px;
+  text-indent: -99999em;
+  background: url(../image/h_sns.png) no-repeat 0 95px;
+  margin: 0 auto;
+  padding: 95px 0 50px;
+}
+
+.snsbox-list{
+  width: 328px;
+  margin: 0 auto 35px;
+}
+
+.snsbox-list-item{
+  float: left;
+  margin: 0 10px;
+}
 
 
+.insta-list-item{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
 
+.insta-list-item a{
+  display: block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.insta-list-item img{
+  width: 200px;
+  height: 200px;
+  display: block;
+}
 
 
 .clearfix:after{
@@ -418,3 +429,62 @@
   display: block;
   clear: both;
 }
+
+.footer{
+  border-top: 1px solid #feaf2b;
+  margin-top: 150px;
+}
+
+.terms-list-item{
+  float: left;
+  width: 20%;
+  text-align: center;
+  line-height: 77px;
+}
+
+.alliance-list{
+  text-align: center;
+  margin-top: 22px;
+}
+
+.alliance-list-item{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer-logo{
+  text-align: center;
+  margin: 48px 0 35px;
+}
+
+.address{
+  text-align: center;
+}
+
+.address-item{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.address-item:last-child{
+  padding-right: 0;
+}
+
+.bottom-line{
+  margin-top: 10px;
+}
+
+.Copyright{
+  text-align: center;
+  margin: 20px 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
