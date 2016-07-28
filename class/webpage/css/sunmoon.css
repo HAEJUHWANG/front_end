@@ -1,0 +1,36 @@
+.header{
+  position: relative;
+}
+
+.util{
+  width: 100%;
+  height: 33px;
+  background: #01aeb2;
+  position: absolute;
+}
+
+.util-member-left{
+  float: left;
+}
+
+.util-member-right{
+  float: right;
+}
+
+.util-member-item{
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+.small-wrap{
+  width: 1094px;
+  margin: 0 auto;
+}
