@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b9c739-9ec9-4c40-837a-9a0c67318b95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/sunmoon.css" />
-      <change type="DELETED" beforePath="C:\Users\321-21\Desktop\front_end\class\webpage\p2-1.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\321-21\Desktop\front_end\class\webpage\p1.html" afterPath="$PROJECT_DIR$/class/webpage/sunmoon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/baskinrabbins.html" afterPath="$PROJECT_DIR$/class/webpage/baskinrabbins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/dothome.css" afterPath="$PROJECT_DIR$/class/webpage/css/dothome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/dothome.html" afterPath="$PROJECT_DIR$/class/webpage/dothome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -58,7 +52,7 @@
           <file leaf-file-name="baskinrabbins.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class/webpage/baskinrabbins.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.375">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
                   <folding>
                     <element signature="n#ul#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,7 +69,7 @@
           <file leaf-file-name="sunmoon.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/webpage/sunmoon.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0862069">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding />
                 </state>
@@ -158,8 +152,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="145" />
+    <option name="x" value="170" />
+    <option name="y" value="90" />
     <option name="width" value="1722" />
     <option name="height" value="857" />
   </component>
@@ -217,6 +211,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,8 +353,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,10 +432,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="145" width="1722" height="857" extended-state="0" />
+    <frame x="170" y="90" width="1722" height="857" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16998827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16998827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -476,6 +470,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class/webpage/sunmoon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class/html/practice/p2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -770,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83827496">
           <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4245283">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.902965">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,13 +801,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37325907">
           <caret line="179" column="55" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/baskinrabbins.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -839,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/sunmoon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0862069">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
