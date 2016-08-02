@@ -1,6 +1,112 @@
-.header{
-  position: relative;
+.wrap{
+  overflow: auto;
 }
+
+.header{
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  padding-top: 33px;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 1px;
+  z-index: 900;
+}
+
+.header>.small-wrap{
+  height: 82px;
+  /*height: 550px;*/
+  overflow: hidden;
+}
+
+
+.logo{
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+
+.gnb{
+  float: right;
+}
+
+.depth1-item{
+  float: left;
+  margin-right: 60px;
+}
+
+.depth1-item:last-child{
+  margin-right: 30px;
+}
+
+.depth1-link{
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  padding: 32px 0 29px 0;
+}
+
+.depth1-link:hover,.current{
+  color: #00878d;
+}
+
+
+/*юс╫ц*/
+.depth1-item:nth-child(1) .depth2,
+.depth1-item:nth-child(2) .depth2,
+.depth1-item:nth-child(3) .depth2,
+.depth1-item:nth-child(4) .depth2,
+.depth1-item:nth-child(5) .depth2
+/*.depth1-item:nth-child(6) .depth2*/
+{
+  display: none;
+}
+
+
+.depth2-item{
+  float: left;
+  margin-right: 100px;
+}
+
+.depth2-item:last-child{
+  margin-right: 0;
+}
+
+.depth2{
+  position: absolute;
+  top: 135px;
+  left: 20px;
+}
+
+.depth2:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.depth2-link{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 0 8px;
+}
+
+.depth3-item{
+  margin: 16px 0;
+}
+
+.depth3-link{
+  color: #6b6b6b;
+}
+
+
+
+
+
+
+
+
+
+
 
 .util{
   width: 100%;
@@ -127,6 +233,7 @@
   width: 100%;
   height: 158px;
   background: url("../images/sub_visual01.jpg") no-repeat 50% 0;
+  margin-top: 117px;
 }
 
 .top-visual h2{
@@ -159,11 +266,6 @@
 
 
 
-
-
-.depth1{
-  float: left;
-}
 
 
 .lnb{
@@ -360,9 +462,24 @@
   color: #666;
   font-size: 10px;
   position: absolute;
-  top: 35px;
-  left: 405px;
+  top: 20px;
+  left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -383,6 +500,7 @@
 .small-wrap{
   width: 1094px;
   margin: 0 auto;
+  position: relative;
 }
 
 .clearfix:after{
