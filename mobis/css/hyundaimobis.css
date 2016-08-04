@@ -2,13 +2,6 @@
   position: relative;
 }
 
-
-.main-img{
-  width: 1060px;
-  height: 605px;
-}
-
-
 .depth1-item{
   }
 
@@ -56,6 +49,126 @@
   right: 450px;
 }
 
+.depth2{
+  display: none;
+}
+
+
+.main-img{
+  display: block;
+  width: 1060px;
+  height: 420px;
+  background: url("../images/visual0.jpg") no-repeat 0 -110px;
+  background-size:1060px 706px;
+}
+
+.main-img2{
+  position: absolute;
+  top: 196px;
+  left: 672px;
+  width: 560px;
+  height: 208px;
+  display: block;
+  background: url("../images/vis_txtbg.png") no-repeat;
+}
+
+
+.title1{
+  margin: 30px auto;
+  width: 106px;
+  height: 18px;
+  text-indent: -9999em;
+  background: url("../images/mBlock0_tit1.gif") no-repeat 50% 0;
+}
+
+.title-left{
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  top: -12px;
+  background: url("../images/mBanL_bt.png") no-repeat;
+}
+
+
+.title-right{
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  background: url("../images/mBanR_bt.png") no-repeat;
+}
+
+.title2{
+  width: 76px;
+  height: 20px;
+  text-indent: -99999em;
+  background: url("../images/mBanS0_tit1.png") no-repeat;
+}
+
+.section-bg1{
+  width: 238px;
+  height: 184px;
+  background: url(../images/mBanSave_bg.jpg) no-repeat 35px 8px;
+}
+
+.section-bg2{
+  width: 238px;
+  height: 184px;
+  background: url(../images/reviewFream0.png) no-repeat -36px 0px;
+}
+
+.title2-bg{
+  padding: 35px 36px;
+  box-sizing: border-box;
+  width: 310px;
+  height: 435px;
+  background: #faf05e;
+}
+
+.together{
+  margin-top: 40px;
+  width: 295px;
+  height: 69px;
+  text-indent: -99999em;
+  background: url("../images/togetherTx0.gif") no-repeat;
+}
+
+.section2-1{
+  display: block;
+  width: 222px;
+  height: 222px;
+  background: url("../images/mPhotoSave_bg.gif") no-repeat;
+  position: absolute;
+  top: 48px;
+  left: 360px;
+}
+
+.section2-2{
+  display: block;
+  width: 222px;
+  height: 222px;
+  background: url("../images/mPhotoSave_bg.gif") no-repeat;
+  position: absolute;
+  top: 48px;
+  left: 592px;
+}
+
+
+.section2-3{
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
+
+
+
+
+
+
+.border{
+  border-bottom: 3px solid #000;
+}
 
 
 
@@ -70,19 +183,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.relative{
+  position: relative;
+}
 
 .float-left{
   float: left;
