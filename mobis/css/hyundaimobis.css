@@ -126,6 +126,20 @@
   background: #faf05e;
 }
 
+.p1{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 15px 0 20px;
+}
+
+.p2{
+  font-size: 13px;
+  line-height: 18px;
+  color: #666;
+
+}
+
 .together{
   margin-top: 40px;
   width: 295px;
@@ -154,6 +168,27 @@
   left: 592px;
 }
 
+.p3{
+  color: #333;
+  font-size: 16px;
+  position: absolute;
+  top: 285px;
+  left: 360px;
+  padding-left: 10px;
+  border-left: 2px solid #f4d900;
+}
+
+.p4{
+  color: #333;
+  font-size: 16px;
+  position: absolute;
+  top: 285px;
+  left: 592px;
+  padding-left: 10px;
+  border-left: 2px solid #f4d900;
+
+}
+
 
 .section2-3{
   position: absolute;
@@ -167,10 +202,8 @@
 
 
 .border{
-  border-bottom: 3px solid #000;
+  border-bottom: 2px solid #000;
 }
-
-
 
 
 
