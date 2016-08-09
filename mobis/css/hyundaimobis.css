@@ -210,6 +210,68 @@
 
 
 
+.footer{
+  height: 130px;
+  background: #323232;
+  font-size: 14px;
+}
+
+.footer-ul{
+  margin-top: 35px;
+}
+
+
+.footer-item{
+
+}
+
+.footer-item:first-child{
+  padding-left: 0;
+}
+
+.footer-link{
+  color: #aeaeae;
+}
+
+
+.footer-item:after{
+  content: "";
+  display: inline-block;
+  background: url("../images/footer_bar.gif") no-repeat;
+  width: 1px;
+  height: 9px;
+  margin:0 13px;
+}
+
+.footer-item:last-child:after{
+  display: none;
+}
+
+.footer-button{
+  margin-top: 40px;
+  width: 53px;
+  height: 33px;
+  background: #111;
+  border: 1px solid #020202;
+  color: #fff;
+  line-height: 13px;
+}
+
+
+.copyright{
+  position: absolute;
+  top:65px;
+  left: 0;
+  color: #aeaeae;
+}
+
+
+
+
+
+
+
+
 
 
 
