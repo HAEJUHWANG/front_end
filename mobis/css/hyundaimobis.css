@@ -73,6 +73,28 @@
 }
 
 
+.main-img3{
+  position: absolute;
+  top: 45px;
+  left: 70px;
+  width: 411px;
+  height: 44px;
+  display: block;
+  background: url("../images/v0_txt1.png") no-repeat;
+}
+
+
+.main-img4{
+  position: absolute;
+  top: 78px;
+  left: -70px;
+  width: 560px;
+  height: 35px;
+  display: block;
+  background: url("../images/v0_txt2.png") no-repeat;
+}
+
+
 .title1{
   margin: 30px auto;
   width: 106px;
@@ -149,31 +171,25 @@
 }
 
 .section2-1{
+  padding: 0 0 8px 12px;
   display: block;
   width: 222px;
   height: 222px;
   background: url("../images/mPhotoSave_bg.gif") no-repeat;
-  position: absolute;
-  top: 48px;
-  left: 360px;
 }
 
 .section2-2{
+  margin-right: 30px;
+  margin-bottom: 10px;
   display: block;
   width: 222px;
   height: 222px;
   background: url("../images/mPhotoSave_bg.gif") no-repeat;
-  position: absolute;
-  top: 48px;
-  left: 592px;
 }
 
 .p3{
   color: #333;
   font-size: 16px;
-  position: absolute;
-  top: 285px;
-  left: 360px;
   padding-left: 10px;
   border-left: 2px solid #f4d900;
 }
@@ -181,29 +197,130 @@
 .p4{
   color: #333;
   font-size: 16px;
-  position: absolute;
-  top: 285px;
-  left: 592px;
   padding-left: 10px;
   border-left: 2px solid #f4d900;
 
 }
 
-
 .section2-3{
-  position: absolute;
-  top: 48px;
-  right: 0;
 }
-
-
-
-
 
 
 .border{
   border-bottom: 2px solid #000;
+  padding-bottom: 33px;
 }
+
+.title3{
+  position: absolute;
+  top: -200px;
+  left: 350px;
+  width: 112px;
+  height: 18px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/mNews_tit.png") no-repeat;
+}
+
+.news1{
+  position: absolute;
+  top: -155px;
+  left: 350px;
+  color: #777;
+
+}
+
+.news1:before{
+  content: "";
+  display: block;
+  clear: both;
+  width: 20px;
+  height: 2px;
+  background: url("../images/grayTop20x2_bar.gif") no-repeat;
+}
+
+
+.news2{
+  position: absolute;
+  top: -155px;
+  left: 715px;
+  color: #777;
+}
+
+.news2:before{
+  content: "";
+  display: block;
+  clear: both;
+  width: 20px;
+  height: 2px;
+  background: url("../images/grayTop20x2_bar.gif") no-repeat;
+}
+
+h5{
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+h6{
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.m-section{
+  background: #f7f7f7;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.title4{
+  margin:0 auto;
+  width: 88px;
+  height: 15px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/mCsr_tit.png") no-repeat;
+}
+
+.ul{
+  margin-top: 40px;
+
+}
+
+.m-section-item{
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.l-section{
+  margin: 60px 0;
+
+}
+
+.l-section-2{
+  padding: 0 30px;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
 
 
 
