@@ -27,7 +27,7 @@
   display: block;
   text-indent: -99999em;
   background: url("../images/menu2.png") no-repeat;
-  right: 750px;
+  right: 735px;
 
 }
 
@@ -46,7 +46,7 @@
   display: block;
   text-indent: -99999em;
   background: url("../images/menu4.png") no-repeat;
-  right: 450px;
+  right: 430px;
 }
 
 .depth2{
@@ -291,11 +291,28 @@ h6{
 
 .m-section-item{
   float: left;
+  margin-left: 60px;
 }
 
+.left{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 24px;
+  height: 45px;
+  display: block;
+  background: url("../images/mRotateL_bt.png") no-repeat;
+}
 
-
-
+.right{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 24px;
+  height: 45px;
+  display: block;
+  background: url("../images/mRotateR_bt.png") no-repeat;
+}
 
 
 
@@ -304,18 +321,51 @@ h6{
 
 
 .l-section{
-  margin: 60px 0;
+  margin: 60px 100px;
 
 }
 
+.title5{
+  width: 72px;
+  height: 20px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/mNoti_tit.gif") no-repeat;
+}
+
+.title6{
+  width: 110px;
+  height: 20px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/mCsrIntro_tit.gif") no-repeat;
+}
+
+.title7{
+  width: 35px;
+  height: 18px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/webzine_tit.gif") no-repeat;
+}
+
+
 .l-section-2{
   padding: 0 30px;
+  margin: 0 30px;
   border-left: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
   box-sizing: border-box;
 }
 
-
+.l-section-2-1{
+  width: 234px;
+  height: 34px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/mCsrIntroTx.gif") no-repeat;
+  margin: 30px 0;
+}
 
 
 
