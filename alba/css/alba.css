@@ -1,0 +1,306 @@
+
+
+
+.header{
+  position: absolute;
+  top: 0px;
+  left: 413px;
+}
+
+
+.logo{
+  display: block;
+  margin: 20px 30px;
+}
+
+.gnb-name{
+  width: 188px;
+  height: 64px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/new_Head_BI2_0607.png") no-repeat;
+}
+
+.gnb{
+  width: 1080px;
+  height: 64px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/w_campaign_gnb_v2.png") no-repeat 188px 0;
+
+}
+
+.event{
+  position: absolute;
+  top: 40px;
+  right: 120px;
+  width: 49px;
+  height: 50px;
+  text-indent: -99999em;
+  background: url("../images/w_event_balloon.png") no-repeat;
+}
+
+.new{
+  position: absolute;
+  top: 40px;
+  right: -10px;
+  width: 49px;
+  height: 50px;
+  text-indent: -99999em;
+  background: url("../images/w_new_balloon.png") no-repeat;
+}
+
+.main-img{
+  width: 1903px;
+  height: 1141px;
+  background: url("../images/w_visual_bg5.jpg") no-repeat;
+  background-size: 1903px 1141px;
+}
+
+
+.main-text{
+  position: absolute;
+  top: 440px;
+  left: 590px;
+}
+
+.main-text1{
+  font-size: 30px;
+  color: #fff;
+}
+
+.main-text2{
+  font-size: 74px;
+  color: #ffd511;
+  font-weight: bold;
+}
+
+.main-left{
+  position: absolute;
+  top: 540px;
+  left: 5%;
+  width: 37px;
+  height: 71px;
+  background: url("../images/w_visual_btnBg.png") no-repeat 0px 0px;
+
+}
+
+
+.main-right{
+  position: absolute;
+  top: 540px;
+  right: 5%;
+  width: 37px;
+  height: 71px;
+  background: url("../images/w_visual_btnBg.png") no-repeat -48px 0px;
+}
+
+
+.move-bar{
+
+}
+
+
+.section1-bg{
+  padding-top: 100px;
+  margin: 0 auto 30px;
+  width: 1248px;
+  height: 390px;
+  background: url("../images/w_contentWrap_bg.png") no-repeat;
+}
+
+.section1-text1{
+  font-size: 26px;
+  line-height: 32px;
+  color: #474747;
+  text-align: center;
+}
+
+.section1-text1:after{
+  content: "";
+  display: block;
+  clear: both;
+  margin: 30px auto 10px;
+  width: 30px;
+  height: 1px;
+  background: url("../images/w_count_bar.png") no-repeat;
+}
+
+.section1-text2{
+  font-size: 80px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section1-text3{
+  margin: 20px 0 40px;
+  font-size: 24px;
+  color: #474747;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section1-button{
+  margin: 0 auto;
+  width: 360px;
+  height: 70px;
+  display: block;
+  text-indent: -99999em;
+  background: url("../images/w_joinBtn.jpg") no-repeat;
+}
+
+
+.section2{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.section2-link{
+  display: block;
+  float: left;
+}
+
+.section2-img{
+  display: block;
+}
+
+.section3-bg{
+  /*background: #f8f8f8;*/
+  width: 810px;
+  margin: 150px auto 0;
+}
+
+.section3-text{
+  font-size: 28px;
+  color: #474747;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section3{
+  margin-bottom: 8px;
+}
+
+.section3-item-main{
+  float: left;
+  height: 41px;
+  font-size: 20px;
+  margin-right: 8px;
+  padding: 8px 20px 6px;
+  box-sizing: border-box;
+  background: #ffd511;
+  color: #fff;
+}
+
+.section3-item{
+  float: left;
+  height: 41px;
+  font-size: 20px;
+  margin-right: 8px;
+  padding: 8px 20px 6px;
+  box-sizing: border-box;
+  background: #e6e6e6;
+  color: #666;
+
+}
+
+
+.footer{
+  box-sizing: border-box;
+  margin-top: 70px;
+  padding: 50px 0;
+  height: 276px;
+  background: #333;
+}
+
+.sns-logo{
+  text-align: center;
+}
+
+.sns-1{
+  float: left;
+  width: 71px;
+  height: 70px;
+  text-indent: -9999em;
+  background: url("../images/w_social_icon.png") no-repeat 0px 0px;
+}
+
+.sns-2{
+  float: left;
+  width: 71px;
+  height: 70px;
+  text-indent: -9999em;
+  background: url("../images/w_social_icon.png") no-repeat 0px 0px;
+}
+
+.sns-3{
+  float: left;
+  width: 71px;
+  height: 70px;
+  text-indent: -9999em;
+  background: url("../images/w_social_icon.png") no-repeat 0px 0px;
+}
+
+.footer-list{
+  text-align: center;
+}
+
+.footer-ul{
+  display: inline-block;
+}
+
+.footer-item{
+  float: left;
+}
+
+.footer-item:after{
+  content: "";
+  display: inline-block;
+  clear: both;
+  width: 2px;
+  height: 11px;
+  background: #4b4b4b;
+  margin: 0 12px;
+}
+
+.footer-item:last-child:after{
+  display: none;
+}
+
+.footer-link{
+  color: #ccc;
+  font-size: 14px;
+
+}
+
+.address{
+  font-size: 14px;
+  text-align: center;
+  color: #ccc;
+  margin:10px 0 20px;
+
+}
+
+.Copyright{
+  text-align: center;
+  color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
