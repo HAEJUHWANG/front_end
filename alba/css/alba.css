@@ -215,32 +215,44 @@
 }
 
 .sns-logo{
-  text-align: center;
+  width: 279px;
+  margin: 0 auto 30px;
 }
 
-.sns-1{
+.sns-item{
+  float: left;
+}
+
+.sns-link-1{
+  margin: 0 11px;
   float: left;
   width: 71px;
   height: 70px;
+  display: inline-block;
   text-indent: -9999em;
   background: url("../images/w_social_icon.png") no-repeat 0px 0px;
 }
 
-.sns-2{
+.sns-link-2{
+  margin: 0 11px;
   float: left;
   width: 71px;
   height: 70px;
+  display: inline-block;
   text-indent: -9999em;
-  background: url("../images/w_social_icon.png") no-repeat 0px 0px;
+  background: url("../images/w_social_icon.png") no-repeat -82px 0px;
 }
 
-.sns-3{
+.sns-link-3{
+  margin: 0 11px;
   float: left;
   width: 71px;
   height: 70px;
+  display: inline-block;
   text-indent: -9999em;
-  background: url("../images/w_social_icon.png") no-repeat 0px 0px;
+  background: url("../images/w_social_icon.png") no-repeat -163px 0px;
 }
+
 
 .footer-list{
   text-align: center;
