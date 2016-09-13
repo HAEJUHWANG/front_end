@@ -1,103 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b9c739-9ec9-4c40-837a-9a0c67318b95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/btnRow_bu1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/famBt_bu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/footer_bar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/gnbBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/grayTop20x2_bar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanEasy_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanGreen_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanHappy_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanL_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanR_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanS0_tit1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanS1_tit1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanS2_tit1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanS3_tit1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSave_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSt0_bt_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSt1_bt_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSt2_bt_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSt3_bt_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBanSt_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBlock0_tit1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBlock1_tit1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBlock2_tit1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mBlock3_tit1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon1_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon2_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon3_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIcon8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIntroBanner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIntroTx.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsrIntro_tit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mCsr_tit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mNewsBu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mNews_tit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mNoti_tit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mPhotoEasy_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mPhotoGreen_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mPhotoHappy_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mPhotoSave_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mPlayBt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mRotateL_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mRotateR_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVideoSt0_img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVideoSt1_img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVideoSt2_img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVideoSt3_img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVisBt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/mVisBt_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/menu1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/menu2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/menu3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/menu4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/photoGoTx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/reviewFream0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/reviewFream1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/reviewFream2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/reviewFream3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/rowRollL_bt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/rowRollR_bt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/togetherTx0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/togetherTx1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/togetherTx2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/togetherTx3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v0_txt1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v0_txt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v1_txt1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v1_txt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v2_txt1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v2_txt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v3_txt1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/v3_txt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/vis_txtbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual1_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual1_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual2_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual2_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual3_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/visual3_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/webzineImg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/webzineImg_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/webzine_tit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/images/yellow1x15_bar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/css/hyundaimobis2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/html/hyundaimobis2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis2/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a7b9c739-9ec9-4c40-837a-9a0c67318b95" name="Default" comment="" />
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,53 +20,25 @@
     <favorites_list name="front_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2982456">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="hyundaimobis2.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mobis2/css/hyundaimobis2.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8161045">
-                  <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hyundaimobis.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="173" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="hyundaimobis2.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mobis2/html/hyundaimobis2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48603353">
-                  <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="ani.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/애니메이션/ani.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10055866">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Html5" />
         <option value="CSS File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -172,13 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class/css/property.html" />
-        <option value="$PROJECT_DIR$/class/css/property.css" />
-        <option value="$PROJECT_DIR$/class/css/practice/layout.html" />
-        <option value="$PROJECT_DIR$/class/css/practice/layout.css" />
-        <option value="$PROJECT_DIR$/class/css/practice/layout1.html" />
-        <option value="$PROJECT_DIR$/mentoring/mentoring1.html" />
-        <option value="$PROJECT_DIR$/삼천리/삼천리.html" />
         <option value="$PROJECT_DIR$/class/css/property/class.css" />
         <option value="$PROJECT_DIR$/class/css/property/class.html" />
         <option value="$PROJECT_DIR$/class/css/property/clear.html" />
@@ -223,8 +92,19 @@
         <option value="$PROJECT_DIR$/mobis2/css/hyundaimobis.css" />
         <option value="$PROJECT_DIR$/mobis2/css/hyundaimobis2.css" />
         <option value="$PROJECT_DIR$/mobis2/html/hyundaimobis2.html" />
+        <option value="$PROJECT_DIR$/class/font_test/font_test.html" />
+        <option value="$PROJECT_DIR$/종다리/mento.html" />
+        <option value="$PROJECT_DIR$/종다리/style.html" />
+        <option value="$PROJECT_DIR$/삼천리/style.html" />
+        <option value="$PROJECT_DIR$/mento/css/default.css" />
+        <option value="$PROJECT_DIR$/mento/style.html" />
+        <option value="$PROJECT_DIR$/class/애니메이션/ani.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -293,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,7 +201,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobis" />
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="애니메이션" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,17 +219,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,13 +241,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DB405T3A-F08C\Desktop\front_end\mento" />
+      <recent name="C:\Users\DB405T3A-F08C\Desktop\front_end\삼천리" />
+      <recent name="C:\Users\DB405T3A-F08C\Desktop\front_end\종다리" />
       <recent name="J:\front_end" />
       <recent name="J:\front_end\class\webpage\video" />
-      <recent name="J:\front_end\alba\css" />
-      <recent name="J:\front_end\mobis\css" />
-      <recent name="J:\front_end\mobis\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DB405T3A-F08C\Desktop\front_end\mento\css" />
       <recent name="C:\Users\321-21\Desktop\front_end\class\webpage" />
       <recent name="C:\Users\321-21\Desktop\front_end\class\css\property" />
       <recent name="C:\Users\user\Desktop\front_end\CIASS\HTML" />
@@ -415,7 +296,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\DB405T3A-F08C\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -427,12 +308,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -464,51 +345,31 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="front_end" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="front_end" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
+    <entry file="file://$PROJECT_DIR$/mento/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+          <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
+    <entry file="file://$PROJECT_DIR$/mento/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobis/html/hyundaimobis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -516,8 +377,7 @@
     <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -525,7 +385,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/font_test/font_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/font_test/font_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/font_test/font_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/font_test/font_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis2/css/hyundaimobis2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="173" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis2/html/hyundaimobis2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -533,7 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +532,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/html/hyundaimobis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/css/hyundaimobis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/html/hyundaimobis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -597,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,23 +644,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobis/html/hyundaimobis.html">
+    <entry file="file://$PROJECT_DIR$/mobis2/css/hyundaimobis2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6256983">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
+        <state vertical-scroll-proportion="0.72252446">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -674,25 +658,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="173" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobis2/css/hyundaimobis2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8161045">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobis2/html/hyundaimobis2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48603353">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.08156425">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61452514">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobis/html/hyundaimobis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/font_test/font_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5865922">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mento/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mento/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mento/style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.166667">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/애니메이션/ani.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10055866">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
