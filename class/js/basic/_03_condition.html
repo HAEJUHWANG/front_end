@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+    #result ,#result2 ,#result3{
+      width: 300px;
+      height: 200px;
+      background: yellow;
+      color: red ;
+      font-size: 72px;
+      font-weight: bold;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -100px 0 0 -100px;
+
+      text-align: center;
+      line-height: 200px;
+
+    }
+
+  </style>
+
+
+
+
+
+
+  <script>
+//    var first = window.prompt('첫번째 값을 입력하시오');
+//    var second =window.prompt('두번째 값을 입력하시오');
+//    var operator = window.prompt('계산 종류를 입력하시오(+,-,*,/)');
+
+
+    function cal(){
+      var first = document.getElementById('first').value;
+      var second = document.getElementById('second').value;
+      var operator = document.getElementById('operator').value;
+
+      var result = 0;
+
+      first = parseInt(first);
+      second = parseInt(second);
+
+
+      if ( operator == '+' || operator == '1') {
+        result = first + second;
+      } else if ( operator == '-'  || operator == '2') {
+        result = first - second;
+      } else if ( operator == '*'  || operator == '3') {
+        result = first * second;
+      } else {
+        result = first / second;
+      }
+
+//      document.write('<p>');
+//      document.write(result);
+//      document.write('</p>');
+
+
+      //result 결과값을 html 형태로 만들어줌
+      var node = document.createTextNode(result);
+
+      //div 태그 새로 생성
+      var div = document.createElement('div');
+
+      //div태그에 result id 추가
+      div.setAttribute('id','result');
+
+      //result 결과값울 새로 생성된 div태그에 넣어줌
+      div.appendChild(node)
+
+      //==> <div id="result">100</div>
+
+
+
+      // id= body 인 태그 영역을 가져옴
+      var element = document.getElementById("body");
+
+      // id= body 인 태그 영역에 생성된 result 결과값을 넣어줌
+      element.appendChild(div);
+
+      //==> <body id="body">
+      //    ...
+      //    <div>
+      //      100
+      //    </div>
+
+
+    }
+
+
+  </script>
+
+
+
+
+
+
+
+  <script>
+
+  function cal2(){
+    var text = document.getElementById('text').value;
+    var result2 = 0;
+
+
+    if ( text == '1') {
+      result2 = '냉장고';
+    } else if ( text == '2' ) {
+      result2 = '세탁기';
+    } else if ( text == '3' ) {
+      result2 = 'TV';
+    } else {
+      result2 = '꽝';
+    }
+
+//    document.write('<p>');
+//    document.write(result2);
+//    document.write('</p>');
+
+
+    var node = document.createTextNode(result2);
+
+    var div = document.createElement('div');
+
+    div.setAttribute('id','result2');
+
+    div.appendChild(node)
+
+
+
+
+    var element = document.getElementById("body2");
+
+    element.appendChild(div);
+
+  }
+
+  </script>
+
+
+
+
+
+
+  <script>
+
+    function cal3(){
+      var text2 = document.getElementById('text2').value;
+      var result3 = 0;
+
+
+      if ( text2 == 100>=text2 && 90<=text2) {
+        result3 = 'A';
+      } else if ( text2 == 89>=text2 && 80<=text2 ) {
+        result3 = 'B';
+      } else if ( text2 == 79>=text2 && 70<=text2 ) {
+        result3 = 'C';
+      } else if ( text2 == 69>=text2 && 60<=text2 ) {
+        result3 = 'D';
+      } else {
+        result3 = 'F';
+      }
+
+  //    document.write('<p>');
+  //    document.write(result3);
+  //    document.write('</p>');
+
+
+      var node = document.createTextNode(result3);
+
+      var div = document.createElement('div');
+
+      div.setAttribute('id','result3');
+
+      div.appendChild(node)
+
+
+
+
+      var element = document.getElementById("body3");
+
+      element.appendChild(div);
+
+    }
+
+  </script>
+
+
+
+
+
+
+
+
+</head>
+<body id="body">
+
+<h1>수업</h1>
+
+  <div>
+    <label>첫번째 값:</label>
+    <input type="text" id="first"/>
+  </div>
+
+  <div>
+    <label>두번째 값:</label>
+    <input type="text"  id="second"/>
+  </div>
+
+  <div>
+    <label>계산종류(+,-,*,/):</label>
+    <input type="text"  id="operator"/>
+  </div>
+
+  <div>
+    <button type="button" onclick="cal();">계산</button>
+  </div>
+
+  <!--수평선 그리기 태그-->
+  <hr/>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="body2">
+
+    <h1>과제1</h1>
+
+      <div>
+        <label>수를 입력하시오:</label>
+        <input type="text" id="text"/>
+      </div>
+
+      <div>
+        <button type="button" onclick="cal2();">결과</button>
+      </div>
+
+  </div>
+
+  <hr/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="body3">
+
+  <h1>과제2</h1>
+
+  <div>
+    <label>수를 입력하시오:</label>
+    <input type="text" id="text2"/>
+  </div>
+
+  <div>
+    <button type="button" onclick="cal3();">결과</button>
+  </div>
+
+</div>
+
+
+
+
+</body>
+</html>

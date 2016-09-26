@@ -13,20 +13,48 @@
   margin: 20px 30px;
 }
 
-.gnb-name{
+
+
+
+
+
+
+
+
+
+
+.gnb-item:nth-child(1){
   width: 188px;
   height: 64px;
-  display: block;
+  /*display: block;*/
   text-indent: -99999em;
   background: url("../images/new_Head_BI2_0607.png") no-repeat;
 }
 
-.gnb{
-  width: 1080px;
+
+
+
+
+.gnb-item:nth-child(2){
+  width: 139px;
   height: 64px;
-  display: block;
+  float: left;
+  /*display: block;*/
   text-indent: -99999em;
-  background: url("../images/w_campaign_gnb_v2.png") no-repeat 188px 0;
+  background: url("../images/w_campaign_gnb_v2.png") 0px 0px;
+}
+
+
+
+
+
+
+.gnb{
+  /*width: 1080px;*/
+  /*height: 64px;*/
+  /*display: block;*/
+  /*text-indent: -99999em;*/
+  /*background: url("../images/w_campaign_gnb_v2.png") no-repeat 188px 0;*/
 
 }
 
