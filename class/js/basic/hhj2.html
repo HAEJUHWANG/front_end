@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script>
+
+    function cal(){
+
+      var n = document.getElementById('n').value;
+      var result;
+
+      for ( var a=1; a<10; a++){
+        for ( var b=1; b<10; b++){
+          result = n*b
+        }
+
+      }
+
+    document.write('<p>');
+    document.write(result);
+    document.write('</p>');
+
+    }
+
+
+
+
+
+
+
+
+
+  </script>
+
+</head>
+<body id="body">
+
+<div>
+  <label>단을 입력하시오</label>
+  <input type="text" id="n" />
+</div>
+
+<div>
+  <button type="button" onclick="cal();">결과확인</button>
+</div>
+
+
+</body>
+</html>

@@ -134,8 +134,6 @@
     div.appendChild(node)
 
 
-
-
     var element = document.getElementById("body2");
 
     element.appendChild(div);
@@ -156,13 +154,13 @@
       var result3 = 0;
 
 
-      if ( text2 == 100>=text2 && 90<=text2) {
+      if ( text2 == 100>=text2 || 90<=text2) {
         result3 = 'A';
-      } else if ( text2 == 89>=text2 && 80<=text2 ) {
+      } else if ( text2 == 89>=text2 || 80<=text2 ) {
         result3 = 'B';
-      } else if ( text2 == 79>=text2 && 70<=text2 ) {
+      } else if ( text2 == 79>=text2 || 70<=text2 ) {
         result3 = 'C';
-      } else if ( text2 == 69>=text2 && 60<=text2 ) {
+      } else if ( text2 == 69>=text2 || 60<=text2 ) {
         result3 = 'D';
       } else {
         result3 = 'F';
@@ -271,7 +269,7 @@
   <h1>과제2</h1>
 
   <div>
-    <label>수를 입력하시오:</label>
+    <label>점수를 입력하시오:</label>
     <input type="text" id="text2"/>
   </div>
 
