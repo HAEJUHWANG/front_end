@@ -1,0 +1,107 @@
+.header{
+  width: 130px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+
+.logo{
+  display: block;
+  width: 86px;
+  height: 19px;
+  text-indent: -99999em;
+  background: url("images/top_logo.png") no-repeat;
+  margin: 61px auto 0;
+}
+
+.depth1-link{
+  display: block;
+  width: 130px;
+  height: 39px;
+  background: url("images/top_gnb.png")no-repeat;
+  text-indent: -99999em;
+}
+
+.depth1:nth-child(2) .depth1-link{
+  background: url("images/top_gnb.png")no-repeat 0 -39px;
+}
+
+.depth1:nth-child(3) .depth1-link{
+  background: url("images/top_gnb.png")no-repeat 0 -78px;
+}
+
+.depth1:nth-child(4) .depth1-link{
+  background: url("images/top_gnb.png")no-repeat 0 -117px;
+}
+
+.depth1:nth-child(5) .depth1-link{
+  background: url("images/top_gnb.png")no-repeat -260px -117px;
+}
+
+.depth1:nth-child(6) .depth1-link{
+  background: url("images/top_gnb.png")no-repeat 0 -156px;
+}
+
+.gnb{
+  margin-top: 310px;
+}
+
+.util{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("images/btn.png")no-repeat -10px -260px;
+  margin: 275px auto 0;
+}
+
+
+.section{
+  position: relative;
+  left: 130px;
+}
+
+.main1{
+  width: 1772px;
+  height: 974px;
+  display: block;
+  text-indent: -99999em;
+  background: url("images/bg_intro2.jpg")no-repeat -335px -161px;
+  overflow: hidden;
+}
+
+.main1-text{
+  display: block;
+  width: 466px;
+  height: 230px;
+  text-indent: -99999em;
+  background: url("images/img_main1_1.png")no-repeat;
+  margin: 400px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
