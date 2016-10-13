@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   background: #fff;
+  border-right: 1px solid #e5e5e5;
 }
 
 .logo{
@@ -57,12 +58,29 @@
 }
 
 
-.section{
+.section,.footer{
   position: relative;
   left: 130px;
 }
 
-.main1{
+.store-logo{
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  z-index: 100;
+}
+
+.app-logo{
+  float: left;
+  display: block;
+}
+
+.google-logo{
+  float: left;
+  display: block;
+}
+
+.section1{
   width: 1772px;
   height: 974px;
   display: block;
@@ -79,6 +97,222 @@
   background: url("images/img_main1_1.png")no-repeat;
   margin: 400px auto;
 }
+
+.section2{
+  width: 1772px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.section2-wrap{
+  width: 736px;
+  height: 564px;
+  margin: 188px auto 0;
+}
+
+.title2{
+  display: block;
+  width: 204px;
+  height: 56px;
+  text-indent: -99999em;
+  background: url("images/h2_ttl.png")no-repeat;
+  float: left;
+  margin-top: 56px;
+}
+
+.title2-1{
+  font-size: 13px;
+  color: #666;
+  float: left;
+  margin: 19px 0 44px 9px;
+}
+
+.fhone{
+  display: block;
+  width: 329px;
+  height: 564px;
+  background: url("images/guide_img_device.png")no-repeat;
+  float: left;
+}
+
+.fhone-1{
+  width: 218px;
+  height: 388px;
+  background: url("images/guide_img_screen1.png") no-repeat;
+  margin: 45px 0 0 7px;
+}
+
+.section2-content{
+  text-indent: -9999em;
+  float: left;
+}
+
+.content-text1{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/sp_intro_txt.png") no-repeat 0 0;
+}
+
+.content-text2{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/sp_intro_txt.png") no-repeat 0 -98px;
+  margin: 28px 0;
+}
+
+.content-text3{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/sp_intro_txt.png") no-repeat 0 -196px;
+}
+
+.content-img1{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/bg_intro_link1.png")no-repeat;
+}
+
+.content-img2{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/bg_intro_link2.png")no-repeat;
+}
+
+.content-img3{
+  display: block;
+  width: 407px;
+  height: 70px;
+  background: url("images/bg_intro_link3.png")no-repeat;
+}
+
+.section3{
+  width: 1772px;
+  height: 900px;
+  background: url("images/bg_appdown.jpg") no-repeat;
+}
+
+.section3-wrap{
+  width: 845px;
+  margin: 0 auto;
+}
+
+.title3{
+  display: block;
+  width: 338px;
+  height: 58px;
+  text-indent: -99999em;
+  background: url("images/h2_ttl.png")no-repeat 0 -58px;
+  float: left;
+}
+
+.appdown1{
+  display: block;
+  width: 194px;
+  height: 55px;
+  background: url("images/btn_appstore.png")no-repeat;
+  float: left;
+}
+
+.appdown2{
+  display: block;
+  width: 194px;
+  height: 55px;
+  background: url("images/btn_google.png")no-repeat;
+  float: left;
+}
+
+.appdown-qr{
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: url("images/btn_qr.png")no-repeat;
+  float: right;
+}
+
+.section4{
+  width: 1772px;
+  height: 2114px;
+  overflow: hidden;
+}
+
+.title4{
+  display: block;
+  width: 275px;
+  height: 58px;
+  text-indent: -99999em;
+  background: url("images/h2_ttl.png")no-repeat -113px -116px;
+  margin: 129px auto 19px;
+}
+
+.title4-1{
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+
+
+.section4-btn{
+  display: block;
+  width: 360px;
+  height: 34px;
+  text-indent: -99999em;
+  margin: 28px auto 74px;
+}
+
+.section4-btn1{
+  display: block;
+  width: 120px;
+  height: 34px;
+  background: url("images/affiliate_tab.png")no-repeat;
+  float: left;
+}
+
+.section4-btn2{
+  display: block;
+  width: 120px;
+  height: 34px;
+  background: url("images/affiliate_tab.png")no-repeat -119px 0;
+  float: left;
+}
+
+.section4-btn3{
+  display: block;
+  width: 120px;
+  height: 34px;
+  background: url("images/affiliate_tab.png")no-repeat -238px 0;
+  float: left;
+}
+
+.section4-wrap{
+  width: 1250px;
+  height: 1639px;
+  margin: 0 auto;
+}
+
+.section4-logo{
+  float: left;
+  margin: 33px 25px 34px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
