@@ -26,10 +26,10 @@
           <file leaf-file-name="ssg.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ssg/ssg.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.88574535">
-                  <caret line="298" column="29" selection-start-line="298" selection-start-column="29" selection-end-line="298" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.7388466">
+                  <caret line="385" column="13" selection-start-line="385" selection-start-column="13" selection-end-line="385" selection-end-column="13" />
                   <folding>
-                    <marker date="1476339347789" expanded="true" signature="1241:1336" placeholder="..." />
+                    <marker date="1476781799397" expanded="true" signature="1241:1336" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -42,8 +42,8 @@
           <file leaf-file-name="ssg.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ssg/ssg.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7039106">
-                  <caret line="160" column="88" selection-start-line="160" selection-start-column="88" selection-end-line="160" selection-end-column="88" />
+                <state vertical-scroll-proportion="0.3463687">
+                  <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -194,7 +194,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +246,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29608938">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2793296">
           <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2122905">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1600" column="2" selection-start-line="1600" selection-start-column="2" selection-end-line="1600" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,18 +723,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssg/ssg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7039106">
-          <caret line="160" column="88" selection-start-line="160" selection-start-column="88" selection-end-line="160" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.3463687">
+          <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssg/ssg.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88574535">
-          <caret line="298" column="29" selection-start-line="298" selection-start-column="29" selection-end-line="298" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7388466">
+          <caret line="385" column="13" selection-start-line="385" selection-start-column="13" selection-end-line="385" selection-end-column="13" />
           <folding>
-            <marker date="1476339347789" expanded="true" signature="1241:1336" placeholder="..." />
+            <marker date="1476781799397" expanded="true" signature="1241:1336" placeholder="..." />
           </folding>
         </state>
       </provider>
