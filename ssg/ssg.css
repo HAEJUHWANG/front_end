@@ -57,17 +57,14 @@
   margin: 275px auto 0;
 }
 
-
 .section,.footer{
-  position: relative;
-  left: 130px;
+  margin-left: 130px;
 }
 
 .store-logo{
   position: absolute;
   right: 40px;
   top: 50px;
-  z-index: 100;
 }
 
 .app-logo{
@@ -382,10 +379,12 @@
 
 }
 
-.section5-list-item:hover{
-  background-color: #ff4b33;
+.section6{
+  width: 1772%;
+  height: 1030px;
+  display: block;
+  background: url("images/bg_event.jpg")no-repeat;
 }
-
 
 
 
