@@ -5,6 +5,23 @@
   <title>폼요소 연습</title>
   <link rel="stylesheet" href="css/dothome.css"/>
   <link rel="stylesheet" href="css/reset.css" />
+
+  <script src="js/jquery-3.1.0.js"></script>
+  <script>
+    $(function(){
+
+      $('.gnb-depth1-item').on('mouseenter',function(){
+        $(this).children('.gnb-depth2').css('display','block');
+      });
+
+      $('.gnb-depth1-item').on('mouseleave',function(){
+        $(this).children('.gnb-depth2').css('display','none');
+      });
+
+
+    });
+  </script>
+
 </head>
 <body>
 
@@ -15,7 +32,7 @@
   <div class="inner">
 
     <h1 class="logo">
-      <a href="/"><img src="../../../../Downloads/front_end-master/front_end-master/class/webpage/images/logo.png" alt="호스팅은 닷홈 떠나자! 바다로" /></a>
+      <a href="/"><img src="images/logo.png" alt="호스팅은 닷홈 떠나자! 바다로" /></a>
     </h1>
 
     <div class="util-wrap clearfix">
@@ -27,7 +44,7 @@
       </ul>
 
         <a href="#" class="fb-logo" title="페이스북 페이지 바로가기">
-          <img src="../../../../Downloads/front_end-master/front_end-master/class/webpage/images/facebook.png" alt="페이스북 로고" />
+          <img src="images/facebook.png" alt="페이스북 로고" />
         </a>
 
     </div>

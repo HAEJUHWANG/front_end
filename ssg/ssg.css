@@ -70,11 +70,13 @@
 .app-logo{
   float: left;
   display: block;
+  margin-left: 25px;
 }
 
 .google-logo{
   float: left;
   display: block;
+  margin-left: 25px;
 }
 
 .section1{
@@ -191,11 +193,12 @@
   width: 1772px;
   height: 900px;
   background: url("images/bg_appdown.jpg") no-repeat;
+  overflow: hidden;
 }
 
 .section3-wrap{
   width: 845px;
-  margin: 0 auto;
+  margin: 400px auto;
 }
 
 .title3{
@@ -380,35 +383,216 @@
 }
 
 .section6{
-  width: 1772%;
+  width: 1772px;
   height: 1030px;
   display: block;
   background: url("images/bg_event.jpg")no-repeat;
+  overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clearfix:after{
-  content: "";
-  clear: both;
+.title6{
+  width: 168px;
+  height: 56px;
   display: block;
+  background: url("images/h2_ttl.png") no-repeat -166px -174px;
+  text-indent: -99999em;
+  margin: 90px auto 23px;
 }
+
+.title6-1{
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  opacity: .3;
+}
+
+.section6-wrap{
+  margin: 136px auto 0;
+  width: 830px;
+  height: 567px;
+}
+
+.section6-content{
+  float: left;
+}
+
+.section6-img1{
+  display: block;
+  width: 270px;
+  height: 270px;
+  background: url("images/getWebSumNailFile_147642142754297.png") no-repeat;
+}
+
+.section6-img2{
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-size: 100px 100px;
+  background: url("images/getWebSumNailFile_147521433727578.png") no-repeat 0 0;
+  margin: 0 4px;
+}
+
+.section6-img3{
+  display: block;
+  width: 270px;
+  height: 270px;
+  background: url("images/getWebSumNailFile_147675528809128.png") no-repeat;
+}
+
+.section6-ttl{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 30px 0 7px;
+}
+
+.section6-mttl{
+  color: #acadaf;
+  font-size: 13px;
+}
+
+.section6-date{
+  color: #acadaf;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+.more-btn{
+  display: block;
+  width: 100px;
+  height: 30px;
+  text-indent: -99999em;
+  background: url("images/event_more.png") no-repeat;
+  margin: 0 auto;
+  clear: both;
+  z-index: 100;
+}
+
+.call{
+  width: 1672px;
+  height: 32px;
+  background: #f7f7f7;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 16px 50px;
+}
+
+.call-num{
+  width: 364px;
+  height: 30px;
+  text-indent: -99999em;
+  background: url("images/ft_cs_num2.png") no-repeat;
+  float: left;
+}
+
+.call-text{
+  float: right;
+}
+
+.notice{
+  display: block;
+  width: 64px;
+  height: 20px;
+  text-indent: -99999em;
+  background: url("images/txt_footer_notice.png")no-repeat;
+  margin-top: 5px;
+  float: left;
+}
+
+.ft-text{
+  width: 360px;
+  margin: 0 20px;
+  color: #666;
+  font-size: 12px;
+  line-height: 30px;
+  float: left;
+}
+
+.ft-more{
+  display: block;
+  width: 54px;
+  height: 20px;
+  text-indent: -99999em;
+  background: url("images/btn_notic_more.png")no-repeat;
+  margin-top: 5px;
+  float: left;
+}
+
+.m-footer{
+  width: 1772px;
+  height: 154px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 50px 50px 25px 50px;
+  box-sizing: border-box;
+}
+
+.ft-util{
+  margin-bottom: 46px;
+}
+
+.ft-util-item{
+  margin-right: 20px;
+  float: left;
+}
+
+.ft-util-link{
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.address{
+  clear: both;
+  font-size: 12px;
+  color: #999;
+}
+
+.address-text{
+  margin: 8px 0;
+}
+
+.l-footer{
+  width: 1772px;
+  height: 125px;
+  padding: 25px 50px 60px;
+  box-sizing: border-box;
+}
+
+.ft-logo{
+  display: block;
+  width: 85px;
+  height: 19px;
+  text-indent: -99999em;
+  background: url("images/ft_logo.png") no-repeat;
+  float: left;
+  margin: 12px 23px 12px 0;
+}
+
+.copyright{
+  color: #999;
+  font-size: 12px;
+  float: left;
+}
+
+.copy-1{
+  margin-top: 5px;
+}
+
+.copy-2{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
