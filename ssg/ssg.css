@@ -427,8 +427,8 @@
   display: block;
   width: 270px;
   height: 270px;
-  background-size: 100px 100px;
   background: url("images/getWebSumNailFile_147521433727578.png") no-repeat 0 0;
+  background-size: cover;
   margin: 0 4px;
 }
 
