@@ -81,6 +81,10 @@
   padding: 5px 0;
 }
 
+.gnb-depth2.on{
+  display: block;
+}
+
 .gnb-depth2-link{
   padding: 3px 20px;
   display: block;
