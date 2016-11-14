@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="cinderella.css"/>
+  <link rel="stylesheet" href="reset.css"/>
+
+  <script src="../class/js/lib/jquery-3.1.1.js"></script>
+  <script type="text/javascript">
+
+    function ScrollControl() {
+      var xpos = event.wheelDelta;
+      window.scrollBy(-xpos, 0);
+    }
+    document.onmousewheel = ScrollControl;
+
+  </script>
+
+
+</head>
+<body class="body">
+
+<div class="bg">
+  신데렐라 텍스트 테스트
+</div>
+
+<footer class="footer"></footer>
+
+</body>
+</html>
