@@ -19,13 +19,13 @@
       height: 500px;
       position: absolute;
       top: 0;
-      left: 0;
+      left: 37px;
 
       transition: left 10s linear;
     }
 
     .wrap.end{
-      left: 1000px;
+      left: 939px;
     }
 
     .basketball{
@@ -57,17 +57,32 @@
 
     }
 
+    function round(){
+      $('.wrap').addClass('end');
+
+      setTimeout(function(){
+
+        $('.wrap').removeClass('end');
+
+      }, 10000);
+    }
+
+
     $(function(){
 
       $('.basketball').on('click', function(){
 
-        $('.wrap').addClass('end');
+        round();
         bound();
 
 
         setInterval(function(){
           bound();
         }, 1000);
+
+        setInterval(function(){
+          round();
+        },20000);
 
       });
 
