@@ -42,9 +42,10 @@ body{
   right: 0;
 }
 
-.logo{
+.logo-link{
   width: 110px;
   height: 150px;
+  display: block;
   background: url("images/logo.png") no-repeat;
   text-indent: -99999em;
   margin: 15px auto 0;
@@ -53,34 +54,37 @@ body{
 .sns{
   width: 52px;
   height: 265px;
-  display: block;
   text-indent: -99999em;
   margin: 540px auto 0;
 }
 
-.sns-item1{
+.sns-link1{
   width: 52px;
   height: 52px;
+  display: block;
   background: url("images/sns-icon.png") no-repeat 0 0;
 }
 
-.sns-item2{
+.sns-link2{
   width: 52px;
   height: 52px;
   margin-top: 15px;
+  display: block;
   background: url("images/sns-icon.png") no-repeat 0 -68px;
 }
 
-.sns-item3{
+.sns-link3{
   width: 52px;
   height: 52px;
   margin-top: 15px;
+  display: block;
   background: url("images/sns-icon.png") no-repeat 0 -142px;
 }
 
-.sns-item4{
+.sns-link4{
   width: 52px;
   height: 52px;
+  display: block;
   margin-top: 15px;
   background: url("images/sns-icon.png") no-repeat 0 -213px;
 }
