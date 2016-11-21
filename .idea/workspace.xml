@@ -26,8 +26,8 @@
           <file leaf-file-name="cinderella.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/team/cinderella.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.26115343">
-                  <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.72252446">
+                  <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -40,8 +40,8 @@
           <file leaf-file-name="cinderella.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/team/cinderella.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43575418">
-                  <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+                <state vertical-scroll-proportion="0.5810056">
+                  <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -256,7 +256,7 @@
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/DB405T3A-F08C/Desktop/front_end/team/cinderella.css" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/DB405T3A-F08C/Desktop/front_end/class/js/basic/_16-4_screen_window.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -327,7 +327,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15572916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -730,24 +730,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/js/basic/_16-4_screen_window.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65363127">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.5977654">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team/cinderella.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43575418">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.5810056">
+          <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team/cinderella.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26115343">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.72252446">
+          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
           <folding />
         </state>
       </provider>
