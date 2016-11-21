@@ -1,18 +1,86 @@
-.body{
-  overflow-y: hidden;
+body{
+  overflow: hidden;
 }
-.bg{
-  width: 7830px;
-  height: 975px;
-  background: url("images/bg.jpg") no-repeat;
+
+.title{
   text-indent: -99999em;
+  font-size: 0;
+}
+
+.gnb{
+  width: 158px;
+  height: 440px;
+  background: url("images/menu.png") no-repeat;
+  position: fixed;
+  top: 0;
+  right: 210px;
+  text-indent: -99999em;
+}
+
+.barmi{
+  width: 130px;
+  height: 257px;
+  background: url("images/barmi.png") no-repeat;
+  position: relative;
+  top: 20px;
+  right: -85px;
+
+}
+
+.section-wrap{
+  width: 7830px;
+  height: 1080px;
+  background: url("images/main-bg.png") no-repeat;
 }
 
 .footer{
   width: 150px;
-  height: 975px;
+  height: 1080px;
   background: #fff;
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.logo{
+  width: 110px;
+  height: 150px;
+  background: url("images/logo.png") no-repeat;
+  text-indent: -99999em;
+  margin: 15px auto 0;
+}
+
+.sns{
+  width: 52px;
+  height: 265px;
+  display: block;
+  text-indent: -99999em;
+  margin: 540px auto 0;
+}
+
+.sns-item1{
+  width: 52px;
+  height: 52px;
+  background: url("images/sns-icon.png") no-repeat 0 0;
+}
+
+.sns-item2{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("images/sns-icon.png") no-repeat 0 -68px;
+}
+
+.sns-item3{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("images/sns-icon.png") no-repeat 0 -142px;
+}
+
+.sns-item4{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("images/sns-icon.png") no-repeat 0 -213px;
 }

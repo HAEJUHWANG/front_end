@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+    .wall{
+      width: 1000px;
+      height: 590px;
+      border: 30px solid transparent;
+      border-top: 0;
+      border-image: url(block.jpg) 50 round;
+    }
+
+    .wrap{
+      width: 100px;
+      height: 500px;
+      position: absolute;
+      top: 0;
+      left: 37px;
+      animation: ball2 4s linear infinite alternate;
+    }
+
+    .basketball{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      animation: ball 0.5s ease-in infinite alternate;
+    }
+
+    @keyframes ball {
+      from{top: 0}
+      to{top: 500px}
+    }
+
+    @keyframes ball2 {
+      from{left: 0}
+      to{left: 939px}
+    }
+
+  </style>
+
+</head>
+<body>
+
+<div class="wall">
+
+  <div class="wrap">
+
+    <img src="Basketball.png" class="basketball" />
+
+  </div>
+
+</div>
+
+</body>
+</html>
