@@ -85,19 +85,19 @@ body{
 .carriage{
   position: absolute;
   top: 225px;
-  left: 650px;
+  left: 840px;
 }
 
 .elf{
   position: absolute;
-  top: 130px;
-  left: 1200px;
+  top: 80px;
+  left: 1350px;
 }
 
 .pumpkin{
   position: absolute;
   top: 620px;
-  left: 1380px;
+  left: 1550px;
 }
 
 .pumpkins{
@@ -109,7 +109,7 @@ body{
 .shoes{
   position: absolute;
   top: 760px;
-  left: 470px;
+  left: 550px;
 }
 
 .mouse{
@@ -126,8 +126,8 @@ body{
 
 .twinkle2{
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 460px;
+  left: 440px;
 }
 
 .castles{
@@ -136,39 +136,39 @@ body{
   left: 0;
 }
 
-.castle4{
+.castle5{
   position: absolute;
-  top: 310px;
-  left: 1060px;
+  top: 260px;
+  left: 1110px;
 }
 
 .moon{
   position: absolute;
   top: -10PX;
-  left: 1100px;
+  left: 970px;
 }
 
 .stars{
   position: absolute;
-  top: 0PX;
-  left: 0px;
+  top: 0;
+  left: 1800px;
 }
 
 .clouds{
   position: absolute;
-  top: 100PX;
-  left: 180px;
+  top: 50PX;
+  left: 220px;
 }
 
 .castle2{
   position: absolute;
-  top: 340PX;
-  left: 1020px;
+  top: 150PX;
+  left: 850px;
 }
 
 .prince{
   position: absolute;
-  top: 440PX;
+  top: 380PX;
   left: 820px;
 }
 
