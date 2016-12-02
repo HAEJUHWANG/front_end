@@ -7,7 +7,11 @@
     window.onload = function(){
       if( navigator.geolocation ){
 
-       navigator.geolocation.getCurrentPosition(myPosition);
+       navigator.geolocation.getCurrentPosition(function(position){
+
+         console.log(position)
+
+       });
 
       }else{
 
