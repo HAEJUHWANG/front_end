@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    .header{
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #01aeb2;
+      background: #faef73;
+    }
+
+    .contents:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .col{
+      width: 50%;
+      box-sizing: border-box;
+      float: left;
+    }
+
+    .col.left{
+      padding: 10px 10px 10px 20px;
+    }
+
+    .col.right{
+      padding: 10px 20px 10px 10px;
+    }
+
+    .image{
+      width: 100%;
+      height: 50px;
+      background: #ff7c98;
+    }
+
+    .footer{
+      width: 100%;
+      height: 50px;
+      border-top: 1px solid #01aeb2;
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">헤더</header>
+
+<section class="contents">
+  <div class="col left">
+    <div class="image">이미지 영역</div>
+    <p class="text">왼쪽 컨텐츠</p>
+  </div>
+
+  <div class="col right">
+    <div class="image">이미지 영역</div>
+    <p class="text">오른쪽 컨텐츠</p>
+  </div>
+</section>
+
+<footer class="footer">푸터</footer>
+</body>
+</html>

@@ -80,7 +80,15 @@ body{
   left: 1280px;
 }
 
-
+.text1{
+  width: 1161px;
+  height: 339px;
+  background: url("images/text1.png") no-repeat;
+  text-indent: -99999em;
+  position: absolute;
+  top: 80px;
+  left: 550px;
+}
 
 .carriage{
   position: absolute;
@@ -130,10 +138,20 @@ body{
   left: 440px;
 }
 
-.castles{
+.text2{
+  width: 1272px;
+  height: 503px;
+  background: url("images/text2.png") no-repeat;
+  text-indent: -99999em;
   position: absolute;
-  top: 545PX;
-  left: 0;
+  top: 80px;
+  left: 550px;
+}
+
+.moon{
+  position: absolute;
+  top: -10PX;
+  left: 970px;
 }
 
 .castle5{
@@ -142,10 +160,20 @@ body{
   left: 1110px;
 }
 
-.moon{
+.castles{
   position: absolute;
-  top: -10PX;
-  left: 970px;
+  top: 545PX;
+  left: 0;
+}
+
+.text3{
+  width: 709px;
+  height: 263px;
+  background: url("images/text3.png") no-repeat;
+  text-indent: -99999em;
+  position: absolute;
+  top: 80px;
+  left: 550px;
 }
 
 .stars{
@@ -170,6 +198,16 @@ body{
   position: absolute;
   top: 380PX;
   left: 820px;
+}
+
+.text4{
+  width: 753px;
+  height: 503px;
+  background: url("images/text4.png") no-repeat;
+  text-indent: -99999em;
+  position: absolute;
+  top: 80px;
+  left: 550px;
 }
 
 
