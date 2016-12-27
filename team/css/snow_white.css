@@ -1,0 +1,565 @@
+body{
+  overflow: hidden;
+}
+
+.title{
+  text-indent: -99999em;
+  font-size: 0;
+}
+
+.gnb{
+  width: 158px;
+  height: 440px;
+  background: url("../images/sub/menu.png") no-repeat;
+  position: fixed;
+  top: 0;
+  right: 210px;
+  text-indent: -99999em;
+  z-index: 100;
+}
+
+
+.gnb-link{
+  background: url("images/gnb.png") no-repeat;
+  z-index: 20;
+}
+
+.first{
+  position: absolute;
+  top: 118px;
+  right: 76px;
+  width: 131px;
+  height: 17px;
+  background-position: 0 -25px;
+}
+
+.second{
+  position: absolute;
+  top: 200px;
+  right: 98px;
+  width: 82px;
+  height: 20px;
+
+  background-position: 0 0;
+}
+
+.third{
+  position: absolute;
+  top: 278px;
+  right: 70px;
+  width: 135px;
+  height: 17px;
+  background-position: 0 -47px;
+}
+
+.fourth{
+  position: absolute;
+  top: 357px;
+  right: 95px;
+  width: 88px;
+  height: 29px;
+  background-position: 0 -69px;
+}
+
+.barmi{
+  width: 130px;
+  height: 257px;
+  background: url("../images/sub/barmi.png") no-repeat;
+  position: relative;
+  top: 20px;
+  right: -85px;
+
+}
+
+.section-wrap{
+  position: relative;
+  width: 7680px;
+  height: 1080px;
+  background: url("../images/snow_white/snow-bg.png") no-repeat;
+}
+
+
+.location{
+  position: relative;
+  float: left;
+  width: 1920px;
+  height: 100%;
+}
+
+
+.fireplace{
+  position: absolute;
+  top: 456px;
+  left: 200px;
+}
+
+.basket{
+  position: absolute;
+  bottom: 260px;
+  left: 750px;
+}
+
+.candle1{
+  position: absolute;
+  top: 200px;
+  left: 863px;
+}
+
+.candle2{
+  position: absolute;
+  top: 200px;
+  right: 430px;
+}
+
+.mirror{
+  position: absolute;
+  top: 180px;
+  right: 590px;
+}
+
+.mirror-in{
+  position: absolute;
+  top: 315px;
+  right: 681px;
+  z-index: 3;
+}
+
+.queen2{
+  position: absolute;
+  bottom: 150px;
+  right: 610px;
+  z-index: 5;
+}
+
+.pattern1{
+  position: absolute;
+  bottom: 450px;
+  left: 13px;
+}
+
+.pattern2{
+  position: absolute;
+  top: 420px;
+  left: 652px;
+}
+
+.pattern3{
+  position: absolute;
+  top: 630px;
+  right: 300px;
+}
+
+.text1{
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  text-indent: -99999em;
+  background: url("../images/snow_white/snow_text1.png") no-repeat;
+  width: 767px;
+  height: 265px;
+}
+
+.mountain2{
+  position: absolute;
+  bottom: 190px;
+  right: 882px;
+  z-index: 0;
+}
+
+.cloud{
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  z-index: 1;
+}
+
+.tree{
+  position: absolute;
+  bottom: 250px;
+  left: 25px;
+  z-index: 7;
+}
+
+.dwarf1{
+  position: absolute;
+  bottom: 264px;
+  left: 263px;
+  z-index: 7;
+}
+
+.dwarf2{
+  position: absolute;
+  bottom: 255px;
+  left: 370px;
+  z-index: 8;
+}
+
+.dwarf3{
+  position: absolute;
+  bottom: 262px;
+  left: 475px;
+  z-index: 1;
+}
+
+.dwarf4{
+  position: absolute;
+  bottom: 254px;
+  left: 560px;
+  z-index: 1;
+}
+
+.dwarf5{
+  position: absolute;
+  bottom: 250px;
+  left: 650px;
+  z-index: 5;
+}
+
+.dwarf6{
+  position: absolute;
+  bottom: 250px;
+  right: 1043px;
+  z-index: 5;
+}
+
+.dwarf7{
+  position: absolute;
+  bottom: 220px;
+  right: 600px;
+  z-index: 6;
+}
+
+.wood{
+  position: absolute;
+  bottom: 215px;
+  right: 300px;
+  z-index: 1;
+}
+
+.tree-wood{
+  position: absolute;
+  bottom: 187px;
+  right: 237px;
+  z-index: 2;
+}
+
+.text2{
+  position: absolute;
+  top: 130px;
+  left: 320px;
+  text-indent: -99999em;
+  background: url("../images/snow_white/snow_text2.png") no-repeat;
+  width: 903px;
+  height: 263px;
+  z-index: 10;
+}
+
+.window{
+  position: absolute;
+  top: 130px;
+  left: 167px;
+}
+
+.table{
+  position: absolute;
+  bottom: 207px;
+  left: 38px;
+}
+
+.green-apple{
+  position: absolute;
+  bottom: 405px;
+  left: 140px;
+  z-index: 5;
+}
+
+.pot{
+  position: absolute;
+  bottom: 278px;
+  left: 540px;
+  z-index: 5;
+}
+
+.bedside-table{
+  position: absolute;
+  bottom: 279px;
+  left: 705px;
+}
+
+.queen{
+  position: absolute;
+  bottom: 210px;
+  right: 650px;
+}
+
+.apple{
+  position: absolute;
+  bottom: 590px;
+  right: 640px;
+  z-index: 3;
+}
+
+.door{
+  position: absolute;
+  bottom: 280px;
+  right: 390px;
+}
+
+.text3{
+  position: absolute;
+  top: 70px;
+  left: 450px;
+  text-indent: -99999em;
+  background: url("../images/snow_white/snow_text3.png") no-repeat;
+  width: 903px;
+  height: 263px;
+  z-index: 10;
+}
+
+
+.mountains{
+  position: absolute;
+  bottom: 220px;
+  left: 20px;
+}
+
+.flowers{
+  position: absolute;
+  top: 350px;
+  left: 70px;
+}
+
+.prince{
+  position: absolute;
+  bottom: 175px;
+  left: 490px;
+}
+
+.bird1{
+  position: absolute;
+  top: 370px;
+  left: 860px;
+}
+
+.bird2{
+  position: absolute;
+  top: 449px;
+  left: 720px;
+}
+
+.animals{
+  position: absolute;
+  bottom: 185px;
+  left: 740px;
+  z-index: 6;
+}
+
+.castle{
+  position: absolute;
+  bottom: 255px;
+  right: 180px;
+
+}
+
+.text4{
+  position: absolute;
+  top: 30px;
+  left: 430px;
+  text-indent: -99999em;
+  background: url("../images/snow_white/snow_text4.png") no-repeat;
+  width: 935px;
+  height: 324px;
+  z-index: 10;
+}
+
+
+.firecracker{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  position: fixed;
+  width: 150px;
+  height: 1080px;
+  background: #fff;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.logo{
+  width: 110px;
+  height: 150px;
+  background: url("../images/sub/logo.png") no-repeat;
+  text-indent: -99999em;
+  margin: 15px auto 0;
+}
+
+.sns{
+  width: 52px;
+  height: 265px;
+  display: block;
+  text-indent: -99999em;
+  margin: 540px auto 0;
+}
+
+.sns-item1{
+  width: 52px;
+  height: 52px;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 0;
+}
+
+.sns-item2{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -68px;
+}
+
+.sns-item3{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -142px;
+}
+
+.sns-item4{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -213px;
+}
+
+
+
+
+
+
+/*백설공주 스프라이트*/
+
+ .snow-image-wrap{
+   position:fixed;
+   left:130px;
+   bottom:60px;
+   z-index: 30;
+ }
+.snow-image{
+  width: 281px;
+  height: 488px;
+
+  text-indent:-99999em;
+  background:url(images/snow-sprite.png) no-repeat 0 0;
+}
+
+
+
+
+
+
+
+/*모달윈도우영역*/
+
+.layerpop.dimmed{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  z-index:20;
+}
+
+.layerpop-text{
+  display:none;
+  position:absolute;
+  top: 0;
+  left: 0;
+  width:900px;
+  height:750px;
+  margin:70px 500px;
+  background: url("../images/sub/borders.png") no-repeat;
+  /*background-size: 900px 750px;*/
+  /*background:#d9bd96;*/
+  /*border: 50px solid transparent;*/
+  /*border-image: url("images/borders.png") 30 stretch;*/
+  font-size:20px;
+  text-align:center;
+  line-height:300px;
+}
+
+
+.close{
+  text-indent:-99999em;
+  width:14px;
+  height:20px;
+  position:absolute;
+  top:40px;
+  right:30px;
+  border: none;
+  background:none;
+  cursor:pointer;
+}
+
+.close:before{
+  content:"";
+  display:block;
+  width:3px;
+  height:30px;
+  background:#000;
+
+  position:absolute;
+  top:0;
+  left:5px;
+
+  transform:rotate(45deg);
+}
+
+.close:after{
+  content:"";
+  display:block;
+  width:3px;
+  height:30px;
+  background:#000;
+
+  position:absolute;
+  top:0;
+  right:5px;
+
+  transform:rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

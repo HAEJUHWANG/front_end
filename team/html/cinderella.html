@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../css/cinderella.css"/>
+  <link rel="stylesheet" href="../css/reset.css"/>
+
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script src="../js/cinderella.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h1 class="title">신데렐라 스토리</h1>
+    <nav class ="gnb">
+      <ul class="barmi">
+        <li class="gnb-item"><a href="#" class="gnb-link first">백설공주</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-link">신데렐라</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-link">인어공주</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-link">라푼젤</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section-wrap">
+
+    <div class="section1">
+      <img src="../images/cinderella/stars.png" alt="별" class="stars"/>
+      <img src="../images/cinderella/window.png" alt="창문" class="window">
+      <img src="../images/cinderella/sprite/sister/sister1.png" alt="새언니1" class="sister"/>
+      <img src="../images/cinderella/sprite/sisters/sisters1.png" alt="새언니2" class="sisters"/>
+      <img src="../images/cinderella/cleaning.png" alt="청소도구" class="cleaning"/>
+      <img src="../images/cinderella/mirror.png" alt="거울" class="mirror"/>
+      <img src="../images/cinderella/desk.png" alt="서랍장" class="desk"/>
+      <img src="../images/cinderella/cat.png" alt="고양이" class="cat"/>
+      <p class="text1">
+        옛날, 옛날에 신데렐라라는 이름의 소녀가 살고 있었어요.
+        그녀는 계모와 두명의 언니들에게 치여 다락방에서 매일같이 궂은일을 도맡아서 하는 아이였습니다.
+        성에서 무도회가 열리는 날 밤, 신데렐라를 가엽게 여기던 요정 할머니를 만나 신데렐라도 언니들처럼 무도회를 갈 수 있게 되었어요.
+      </p>
+    </div>
+
+
+    <div class="section2">
+      <img src="../images/cinderella/carriage.png" alt="호박마차" class="carriage"/>
+      <img src="../images/cinderella/elf.png" alt="요정할머니" class="elf"/>
+      <div data-popup="pumpkin-text" class="pop-layer"><img  src="../images/cinderella/pumpkin.png" alt="호박" class="pumpkin"/></div>
+      <script>
+        $(function(){
+          $('.pop-layer').on('click', function(){
+            $('.layerpop.dimmed').css({display:'block'});
+            $( '.layerpop-text.' + $(this).data('popup')).css({display : 'block'});
+          });
+        });
+      </script>
+      <img src="../images/cinderella/pumpkins.png" alt="굴러다니는 호박" class="pumpkins"/>
+      <img src="../images/cinderella/shoes.png" alt="유리구두" class="shoes"/>
+      <img src="../images/cinderella/mouse.png" alt="춤추는 쥐" class="mouse"/>
+      <img src="../images/cinderella/twinkle.png" alt="반짝이효과" class="twinkle"/>
+      <img src="../images/cinderella/twinkle2.png" alt="반짝이효과" class="twinkle2"/>
+      <p class="text2">
+        모든 준비를 마치고 마지막으로 곱게 간직해오던 유리 구두를 신으려던 신데렐라는 그만 화들짝 놀라고 말았어요.
+        집안일에 너무 시달린 나머지 발이 퉁퉁 부어버려 유리구두가 맞지 않았기 때문이었어요.
+        신데렐라는 하는 수 없이 유리 구두를 손에 들고 맨발로 호박마차에 올랐어요.
+        그리고는 무도회장까지 가는 길에 요정이 마차와 함께 준비해준 호박 요리로 허기진 배를 채웠어요.
+      </p>
+    </div>
+
+
+    <div class="section3">
+      <img src="../images/cinderella/moon.png" alt="달" class="moon"/>
+      <img src="../images/cinderella/castle5.png" alt="성" class="castle5"/>
+      <img src="../images/cinderella/castles.png" alt="도시그림자" class="castles"/>
+      <p class="text3">
+        얼마 후, 무도회장에 도착했지만 선뜻 내리지 못하고 맨발로 망설이던 신데렐라는 혹시라도 하는 심정으로 다시 유리 구두를 신어보고는 깜짝 놀라고 말았어요.
+        들어갈 기미조차 없던 유리구두가 거짓말처럼 발에 꼭 맞지 뭐에요? 신데렐라는 다리의 붓기가 빠져서 구두를 신을 수 있게 되었고, 무도회에서 왕자님을 만나 춤도 추었어요.
+        그날 밤 12시가 되어 급하게 도망가려던 신데렐라는 신발 한쪽이 벗겨진 지도 모른 채 성을 빠져나가게 됩니다.
+      </p>
+    </div>
+
+
+    <div class="section4">
+      <img src="../images/cinderella/clouds.png" alt="구름" class="clouds"/>
+      <img src="../images/cinderella/castle2.png" alt="성" class="castle2"/>
+      <img src="../images/cinderella/prince.png" alt="왕자" class="prince"/>
+      <img src="../images/cinderella/ddd2.png" alt="" class="ddd"/>
+      <p class="text4">
+        다시 일상으로 돌아와서 구박을 받으며 집안일을 하던 신데렐라는 유리구두의 주인을 찾으러 온 왕자님을 다시 만나 자신이 구두의 주인임을 알리게 됩니다.
+        왕자님과 춤을 춘 그녀가 질투가 났던 두 언니는 신데렐라에게 “너는 호박같이 생겼으니 호박만 먹어!” 라며 밥 대신 호박만 주었고,
+        붓기에 탁월한 호박 덕분에 신데렐라는 궂은일에도 더 이상 붓지 않게 되었어요. 그렇게 그들은 행복하게 살았답니다.
+      </p>
+    </div>
+
+    <!-- 신데렐라 스프라이트 -->
+
+    <div class="cin-image-wrap">
+      <div class="cin-image">신데렐라</div>
+    </div>
+    <!-- 신데렐라 스프라이트 -->
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="logo"><a href="#" class="logo-link">barmilogo</a></div>
+    <ul class="sns">
+      <li class="sns-item1"><a href="#" class="sns-link1">페이스북</a></li>
+      <li class="sns-item2"><a href="#" class="sns-link2">인스타</a></li>
+      <li class="sns-item3"><a href="#" class="sns-link3">트위터</a></li>
+      <li class="sns-item4"><a href="#" class="sns-link4">더보기</a></li>
+    </ul>
+
+  </footer>
+
+
+
+<!-- 모달윈도우영역 -->
+
+  <div class="layerpop dimmed">
+
+    <div class="layerpop-text pumpkin-text">
+      <p>pumpkin text</p>
+
+
+      <button class="close">close</button>
+      <script>
+        $(function(){
+          $('.close').on('click', function(){
+            $('.layerpop.dimmed').css({display:'none'});
+            $(this).parent('.layerpop-text').css({display:'none'});
+          });
+        });
+      </script>
+
+    </div>
+
+  </div>
+
+
+
+
+
+</body>
+</html>

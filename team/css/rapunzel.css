@@ -1,0 +1,480 @@
+/*font*/
+@font-face{
+  font-family:'msugijeong';
+  src: url('../font/msugijeong.eot?#iefix') format('embedded-opentype'),
+  url('../font/msugijeong.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+}
+body{
+  font-family:'msugijeong', sans-serif;
+  font-size:40px;
+}
+
+body{
+  overflow: hidden;
+}
+
+.title{
+  text-indent: -99999em;
+  font-size: 0;
+}
+
+.gnb{
+  width: 158px;
+  height: 440px;
+  background: url("../images/sub/menu.png") no-repeat;
+  position: fixed;
+  top: 0;
+  right: 210px;
+  text-indent: -99999em;
+  z-index:9999;
+}
+
+
+.gnb-link{
+  background: url("images/gnb.png") no-repeat;
+  z-index: 20;
+}
+
+.first{
+  position: absolute;
+  top: 118px;
+  right: 76px;
+  width: 131px;
+  height: 17px;
+  background-position: 0 -25px;
+}
+
+.second{
+  position: absolute;
+  top: 200px;
+  right: 98px;
+  width: 82px;
+  height: 20px;
+
+  background-position: 0 0;
+}
+
+.third{
+  position: absolute;
+  top: 278px;
+  right: 70px;
+  width: 135px;
+  height: 17px;
+  background-position: 0 -47px;
+}
+
+.fourth{
+  position: absolute;
+  top: 357px;
+  right: 95px;
+  width: 88px;
+  height: 29px;
+  background-position: 0 -69px;
+}
+
+
+.barmi{
+  width: 130px;
+  height: 257px;
+  background: url("../images/sub/barmi.png") no-repeat;
+  position: relative;
+  top: 20px;
+  right: -85px;
+  z-index:9999;
+
+}
+/*section 영역*/
+
+.section-wrap{
+  width: 7830px;
+  height: 1080px;
+  background: url("../images/rapunzel/rapunzel-bg.png") no-repeat;
+}
+
+.section1{
+  position:relative;
+  width:1920px;
+  height:1080px;
+  float:left;
+}
+
+.text1{
+  position:absolute;
+  top:200px;
+  left:1226px;
+  z-index:999;
+  text-indent:-9999em;
+  background:url("../images/rapunzel/rapunzel_text1.png") no-repeat 0 0;
+  width:1072px;
+  height:272px;
+}
+
+.tower-1{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.castle{
+  position:absolute;
+  top:346px;
+  left:1129px;
+}
+
+.mother{
+  position:absolute;
+  top:583px;
+  left:1428px;
+}
+
+@keyframes move1 {
+  to{transform:translate(0, 0)}
+  from{transform:translate(100px, 0)}
+}
+
+
+.badpeople{
+  animation: move1 0.8s ease-out infinite alternate;
+  position:absolute;
+  top:534px;
+  left:1770px;
+}
+
+@keyframes move2 {
+  to{transform:translate(0, 0)}
+  from{transform:translate(100px, 0)}
+}
+
+.could-1{
+  animation: move2 1.5s linear infinite alternate;
+  position:absolute;
+  top:168px;
+  left:1188px;
+}
+
+.section2{
+  position:relative;
+  width:1920px;
+  height:1080px;
+  float:left;
+}
+
+.text2{
+  position:absolute;
+  top:164px;
+  left:746px;
+  z-index:999;
+  text-indent:-9999em;
+  background:url("../images/rapunzel/rapunzel_text2.png") no-repeat 0 0;
+  width:523px;
+  height:351px;
+}
+
+.man{
+  position:absolute;
+  bottom:0;
+  left:313px;
+}
+
+.gress-2{
+  position:absolute;
+  top:761px;
+  left:597px;
+}
+
+.trees-2{
+  position:absolute;
+  top:636px;
+  left:667px;
+}
+
+.tower-2{
+  position:absolute;
+  top:143px;
+  left:1356px;
+
+  z-index:1;
+}
+
+@keyframes move3 {
+  to{transform:translate(0, 0)}
+  from{transform:translate(100px, 0)}
+}
+
+.could-2{
+  animation: move3 1.5s linear infinite alternate;
+  position:absolute;
+  top:156px;
+  left:222px;
+}
+
+.section3{
+  position:relative;
+  width:1920px;
+  height:1080px;
+  float:left;
+}
+
+.text3{
+  position:absolute;
+  top:85px;
+  left:344px;
+  z-index:999;
+  text-indent:-9999em;
+  background:url("../images/rapunzel/rapunzel_text3.png") no-repeat 0 0;
+  width:1076px;
+  height:431px;
+}
+
+.window{
+  position:absolute;
+  top:263px;
+  left:116px;
+}
+
+.cabbage{
+  position:absolute;
+  top:498px;
+  left:91px;
+}
+
+.mirror{
+  position:absolute;
+  top:170px;
+  left:1577px;
+}
+
+.closet{
+  position:absolute;
+  top:579px;
+  left:1469px;
+}
+
+.section4{
+  position:relative;
+  width:1920px;
+  height:1080px;
+  float:left;
+
+}
+
+.text4{
+  position:absolute;
+  top:193px;
+  left:218px;
+  z-index:999;
+  text-indent:-9999em;
+  background:url("../images/rapunzel/rapunzel_text4.png") no-repeat 0 0;
+  width:965px;
+  height:271px;
+}
+
+.horse{
+  position:absolute;
+  bottom:103px;
+  left:474px;
+
+  z-index:1;
+}
+
+.gress-4{
+  position:absolute;
+  top:767px;
+  left:736px;
+}
+
+.trees-4{
+  position:absolute;
+  top:645px;
+  left:736px;
+}
+
+@keyframes move4 {
+  to{transform:translate(0, 0)}
+  from{transform:translate(100px, 0)}
+}
+
+
+.could-4{
+  animation: move4 1.5s linear infinite alternate;
+  position:absolute;
+  top:93px;
+  left:212px;
+}
+
+.hair-tower{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+
+
+
+
+
+
+/*footer 영역*/
+
+.footer{
+  width: 150px;
+  height: 1080px;
+  background:#fff;
+  position:fixed;
+  top: 0;
+  right: 0;
+  z-index:9999;
+}
+
+
+.logo-link{
+  width: 110px;
+  height: 150px;
+  display: block;
+  background: url("../images/sub/logo.png") no-repeat;
+  text-indent: -99999em;
+  margin: 15px auto 0;
+}
+
+.sns{
+  width: 52px;
+  height: 265px;
+  text-indent: -99999em;
+  margin: 540px auto 0;
+}
+
+.sns-link1{
+  width: 52px;
+  height: 52px;
+  display: block;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 0;
+}
+
+.sns-link2{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  display: block;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -68px;
+}
+
+.sns-link3{
+  width: 52px;
+  height: 52px;
+  margin-top: 15px;
+  display: block;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -142px;
+}
+
+.sns-link4{
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin-top: 15px;
+  background: url("../images/sub/sns-icon.png") no-repeat 0 -213px;
+}
+
+
+.clearfix:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*모달윈도우영역*/
+
+.layerpop.dimmed{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  z-index:20;
+}
+
+.layerpop-text{
+  display:none;
+  position:absolute;
+  top: 0;
+  left: 0;
+  width:900px;
+  height:750px;
+  margin:70px 500px;
+  background: url("../images/sub/borders.png") no-repeat;
+  /*background-size: 900px 750px;*/
+  /*background:#d9bd96;*/
+  /*border: 50px solid transparent;*/
+  /*border-image: url("images/borders.png") 30 stretch;*/
+  font-size:20px;
+  text-align:center;
+  line-height:300px;
+}
+
+
+.close{
+  text-indent:-99999em;
+  width:14px;
+  height:20px;
+  position:absolute;
+  top:40px;
+  right:30px;
+  border: none;
+  background:none;
+  cursor:pointer;
+}
+
+.close:before{
+  content:"";
+  display:block;
+  width:3px;
+  height:30px;
+  background:#000;
+
+  position:absolute;
+  top:0;
+  left:5px;
+
+  transform:rotate(45deg);
+}
+
+.close:after{
+  content:"";
+  display:block;
+  width:3px;
+  height:30px;
+  background:#000;
+
+  position:absolute;
+  top:0;
+  right:5px;
+
+  transform:rotate(-45deg);
+}
+
+
+
+
+

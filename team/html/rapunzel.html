@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../css/rapunzel.css"/>
+  <link rel="stylesheet" href="../css/reset.css"/>
+
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script src="../js/rapunzel.js"></script>
+
+</head>
+
+<body>
+
+<header>
+  <h1 class="title">라푼젤 스토리</h1>
+  <nav class ="gnb">
+    <ul class="barmi">
+      <li class="gnb-item"><a href="#" class="gnb-link">백설공주</a></li>
+      <li class="gnb-item"><a href="#" class="gnb-link">신데렐라</a></li>
+      <li class="gnb-item"><a href="#" class="gnb-link">인어공주</a></li>
+      <li class="gnb-item"><a href="#" class="gnb-link">라푼젤</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="section-wrap clearfix">
+
+  <div class="section1">
+    <img src="../images/rapunzel/tower1.png" alt="탑이미지" class="tower-1">
+    <img src="../images/rapunzel/rapunzel-castle.png" alt="성이미지" class="castle">
+    <img src="../images/rapunzel/mother.png" alt="라푼젤 엄마이미지" class="mother">
+    <img src="../images/rapunzel/badpeople.png" alt="악당들 이미지" class="badpeople">
+    <img src="../images/rapunzel/cloud-1.png" alt="구름 이미지" class="could-1">
+    <p class="text1">
+      “길고 어두운 탑 꼭대기에는 라푼젤이라는 공주가 갇혀 살고 있었습니다.
+      그녀는 어린 시절부터 한 마녀에 의해서 납치당했고,
+      성인이 될 나이가 되도록
+      탑에서 벗어나지 못하고 있었습니다. ”
+    </p>
+  </div>
+
+
+  <div class="section2">
+    <img src="../images/rapunzel/rapunzel-man.png" alt="남자 이미지" class="man"/>
+    <img src="../images/rapunzel/grass-2.png" alt="풀 이미지" class="gress-2"/>
+    <img src="../images/rapunzel/trees-2.png" alt="나무 이미지" class="trees-2"/>
+    <img src="../images/rapunzel/tower.png" alt="탑 이미지" class="tower-2"/>
+    <img src="../images/rapunzel/cloud-2.png" alt="구름 이미지" class="could-2">
+    <p class="text2">
+      “매일 매일 그녀를 사랑하는 남자가
+      매일같이 탑으로 왔지만,
+      높은 탑을 오를 수 있을 만큼
+      튼튼한 밧줄이 없었기에
+      남자는 항상 실패하고 말았습니다.”
+    </p>
+  </div>
+
+
+  <div class="section3">
+    <img src="../images/rapunzel/rapunzel-window.png" alt="창문 이미지" class="window"/>
+    <div data-popup="cabbage-text" class="pop-layer"><img src="../images/rapunzel/cabbage.png" alt="양배추 이미지" class="cabbage"/></div>
+
+    <script>
+      $(function(){
+        $('.pop-layer').on('click', function(){
+          $('.layerpop.dimmed').css({display:'block'});
+          $( '.layerpop-text.' + $(this).data('popup')).css({display : 'block'});
+        });
+      });
+    </script>
+
+    <img src="../images/rapunzel/rapunzel-mirror.png" alt="거울 이미지" class="mirror"/>
+    <img src="../images/rapunzel/closet.png" alt="서랍장 이미지" class="closet"/>
+    <p class="text3">
+      “어떻게 하면 이 탑을 벗어날 수 있을 까 하고
+      매일 생각했던 라푼젤은 자신의 이름이 양배추라는 것을 생각해 냅니다.
+      젊고 윤기 나는 머리칼을 갖고 싶었던 라푼젤의 어머니가
+      마녀의 텃밭에서 양배추를 먹었고
+      그 업보로 자신이 납치 되었다는 것을 알게 된 라푼젤은
+      몰래몰래 양배추를 먹으며 머리를 길렀습니다.”
+    </p>
+  </div>
+
+
+  <div class="section4">
+    <img src="../images/rapunzel/horse.png" alt="말 이미지" class="horse"/>
+    <img src="../images/rapunzel/grass.png" alt="풀 이미지" class="gress-4"/>
+    <img src="../images/rapunzel/trees.png" alt="나무 이미지" class="trees-4"/>
+    <img src="../images/rapunzel/hair_tower.png" alt="타워 이미지" class="hair-tower"/>
+    <img src="../images/rapunzel/rapunzel-cloud.png" alt="구름 이미지" class="could-4">
+    <p class="text4">
+      “그렇게 풍성하고 아름다운 머리카락을 갖게 된 라푼젤은
+      자신을 구하러 온 남자에게 밧줄 대신 자신의 머리카락을 던졌고,
+      남자는 밧줄보다 튼튼하고 건강한 라푼젤의 머리카락을 타고
+      탑으로 올라와 그녀를 구했답니다.”
+    </p>
+  </div>
+
+  <!-- 라푼젤 스프라이트 -->
+  <div class="rapunzel-image-wrap">
+    <div class="rapunzel-image">라푼젤</div>
+  </div>
+  <!-- 라푼젤 스프라이트 -->
+
+
+</section>
+
+
+<footer class="footer">
+
+  <div class="logo"><a href="#" class="logo-link">barmilogo</a></div>
+  <ul class="sns">
+    <li class="sns-item1"><a href="#" class="sns-link1">페이스북</a></li>
+    <li class="sns-item2"><a href="#" class="sns-link2">인스타</a></li>
+    <li class="sns-item3"><a href="#" class="sns-link3">트위터</a></li>
+    <li class="sns-item4"><a href="#" class="sns-link4">더보기</a></li>
+  </ul>
+
+</footer>
+
+
+<!-- 모달윈도우영역 -->
+
+
+<div class="layerpop dimmed">
+
+  <div class="layerpop-text cabbage-text">
+    <p>pumpkin text</p>
+
+
+    <button class="close">close</button>
+    <script>
+      $(function(){
+        $('.close').on('click', function(){
+          $('.layerpop.dimmed').css({display:'none'});
+          $(this).parent('.layerpop-text').css({display:'none'});
+        });
+      });
+    </script>
+
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
