@@ -220,7 +220,7 @@ body{
 .text3{
   position:absolute;
   top:85px;
-  left:344px;
+  left:500px;
   z-index:1;
   text-indent:-9999em;
   background:url("../images/rapunzel/rapunzel_text3.png") no-repeat 0 0;
@@ -235,28 +235,29 @@ body{
 }
 
 
-/*@keyframes move3 {*/
-  /*to{transform:translate(0, 0)}*/
-  /*from{transform:translate(100px, 0)}*/
-/*}*/
-
 .cabbage{
-  /*animation: move3 1.5s linear infinite alternate;*/
   position:absolute;
-  top:498px;
-  left:91px;
+  top:710px;
+  left:630px;
 }
 
 .cabbage1{
   position:absolute;
-  top:498px;
-  left:91px;
+  top:750px;
+  left:-170px;
 }
 
+@keyframes move5 {
+to{transform:translate(0, 0)}
+from{transform:translate(100px, 0)}
+}
+
+
 .cabbage2{
+  animation: move5 1.5s linear infinite alternate;
   position:absolute;
-  top:498px;
-  left:91px;
+  top:460px;
+  left:100px;
 }
 
 .mirror{

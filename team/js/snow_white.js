@@ -256,7 +256,7 @@ $(document).ready(function() {
 
     setInterval(function () {
 
-        if( i > 8){
+        if( i > 2){
             i = 1;
         }
         $('.apple').attr('src', '../images/snow_white/sprite/apple/apple' + i + '.png');

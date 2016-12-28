@@ -366,7 +366,7 @@ body{
    position:fixed;
    left:40px;
    bottom:40px;
-   z-index: 3;
+   z-index: 20;
  }
 .cin-image{
   width:319px;
