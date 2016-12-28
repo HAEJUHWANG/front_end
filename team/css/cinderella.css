@@ -396,7 +396,6 @@ body{
 }
 
 .layerpop-text{
-  display:none;
   position:absolute;
   top: 0;
   left: 0;
@@ -408,9 +407,7 @@ body{
   /*background:#d9bd96;*/
   /*border: 50px solid transparent;*/
   /*border-image: url("images/borders.png") 30 stretch;*/
-  font-size:20px;
-  text-align:center;
-  line-height:300px;
+
 }
 
 

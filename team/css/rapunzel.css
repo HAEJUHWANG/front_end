@@ -138,7 +138,7 @@ body{
 .badpeople{
   animation: move1 0.8s ease-out infinite alternate;
   position:absolute;
-  top:534px;
+  top:615px;
   left:1770px;
 }
 
@@ -234,7 +234,26 @@ body{
   left:116px;
 }
 
+
+/*@keyframes move3 {*/
+  /*to{transform:translate(0, 0)}*/
+  /*from{transform:translate(100px, 0)}*/
+/*}*/
+
 .cabbage{
+  /*animation: move3 1.5s linear infinite alternate;*/
+  position:absolute;
+  top:498px;
+  left:91px;
+}
+
+.cabbage1{
+  position:absolute;
+  top:498px;
+  left:91px;
+}
+
+.cabbage2{
   position:absolute;
   top:498px;
   left:91px;
@@ -270,6 +289,7 @@ body{
   width:965px;
   height:271px;
 }
+
 
 .horse{
   position:absolute;
@@ -420,7 +440,6 @@ body{
 }
 
 .layerpop-text{
-  display:none;
   position:absolute;
   top: 0;
   left: 0;
@@ -432,10 +451,9 @@ body{
   /*background:#d9bd96;*/
   /*border: 50px solid transparent;*/
   /*border-image: url("images/borders.png") 30 stretch;*/
-  font-size:20px;
-  text-align:center;
-  line-height:300px;
+
 }
+
 
 
 .cabbage-text{

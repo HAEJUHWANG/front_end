@@ -6,7 +6,7 @@ html, body{
 .container{
   width:100%;
   height:100%;
-  background:url(../images/main-bg.PNG) no-repeat 0 0;\
+  background:url(../images/sub/main-bg.png) no-repeat 0 0;
   position:relative;
 }
 
@@ -20,12 +20,29 @@ html, body{
   text-indent:-999em;
   width:662px;
   height:412px;
-  background:url(../images/main-book.PNG) no-repeat 0 0;
+  background:url(../images/sub/main-book.PNG) no-repeat 0 0;
   cursor:pointer;
 }
 
 .book:hover{
   width:800px;
   height:600px;
-  background:url(../images/main-book-hover.PNG) no-repeat 0 0;
+  background:url(../images/sub/main-book-hover.PNG) no-repeat 0 0;
+}
+
+
+.click{
+  animation: click 0.5s infinite;
+  position:absolute;
+  top:700px;
+  right:600px;
+  width:100px;
+  height:100px;
+  text-indent:-9999em;
+  background:url(../images/sub/mouse-click-100-1.png)no-repeat 0 0;
+}
+
+@keyframes click {
+  from {background:url(../images/sub/mouse-click-100-1.png);}
+  to {background:url(../images/sub/mouse-click-100-2.png);}
 }
