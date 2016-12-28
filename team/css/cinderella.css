@@ -23,7 +23,7 @@ body{
 }
 
 .gnb-link{
-  background: url("images/gnb.png") no-repeat;
+  background: url("../images/sub/gnb-text.png") no-repeat;
   z-index: 20;
 }
 
@@ -373,7 +373,7 @@ body{
   height:481px;
 
   text-indent:-99999em;
-  background:url(../sprite/cin/cin_sprite.png) no-repeat 0 0;
+  background:url(../images/cinderella/sprite/cin_sprite.png) no-repeat 0 0;
 }
 
 

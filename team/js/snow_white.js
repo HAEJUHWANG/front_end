@@ -266,3 +266,20 @@ $(document).ready(function() {
 
 });
 
+
+
+$(document).ready(function() {
+
+    var i = 1;
+
+    setInterval(function () {
+
+        if( i > 4){
+            i = 1;
+        }
+        $('.firecracker').attr('src', '../images/snow_white/sprite/firecracker/firecracker' + i + '.png');
+        i++;
+
+    }, 500);
+
+});

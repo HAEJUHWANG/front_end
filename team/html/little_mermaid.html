@@ -18,10 +18,10 @@
     <h1 class="title">인어공주 스토리</h1>
     <nav class ="gnb">
         <ul class="barmi">
-            <li class="gnb-item"><a href="#" class="gnb-link">백설공주</a></li>
-            <li class="gnb-item"><a href="#" class="gnb-link">신데렐라</a></li>
-            <li class="gnb-item"><a href="#" class="gnb-link">인어공주</a></li>
-            <li class="gnb-item"><a href="#" class="gnb-link">라푼젤</a></li>
+            <li class="gnb-item"><a href="snow_white.html" class="gnb-link first">백설공주</a></li>
+            <li class="gnb-item"><a href="cinderella.html" class="gnb-link second">신데렐라</a></li>
+            <li class="gnb-item"><a href="#" class="gnb-link third">인어공주</a></li>
+            <li class="gnb-item"><a href="rapunzel.html" class="gnb-link fourth">라푼젤</a></li>
         </ul>
     </nav>
 </header>
@@ -41,20 +41,6 @@
         <img src="../images/little_mermaid/물고기_0016_f9.png" alt="물고기" class="fish4"/>
         <img src="../images/little_mermaid/물고기_0018_f7.png" alt="물고기" class="fish5"/>
         <img src="../images/little_mermaid/1page_1.png"  class="desk"/>
-        <!--<img src="images/조개.png" alt="조개" class="shellfish"/>-->
-
-      <script>
-        $(function(){
-          $('.pop-layer').on('click', function(){
-            $('.layerpop.dimmed').css({display:'block'});
-            $( '.layerpop-text.' + $(this).data('popup')).css({display : 'block'});
-          });
-        });
-      </script>
-
-        <img src="../images/little_mermaid/13.png" alt="물방울" class="water-drop"/>
-        <img src="../images/little_mermaid/b2.png" alt="물방울" class="water-drop1"/>
-
         <P class="text1">
             옛날에 바다 속에는 아름다운 인어공주가 살고 있었어요.
             인어공주가 사는 마을에서는 요즘 만물상인 검은 문어가 파는 진주파우더가 한창 유행중이였어요.
@@ -67,7 +53,6 @@
         <img src="../images/little_mermaid/14.png" alt="물고기3" class="fish3"/>
         <img src="../images/little_mermaid/21.png" alt="공주들" class="princess"/>
         <img src="../images/little_mermaid/man.png" alt="떨어지는 왕자" class="man"/>
-
         <img src="../images/little_mermaid/man_bg.png" alt="떨어지는 왕자" class="man-bg"/>
         <p class="text2">
             그러던 어느 날 우연히 침몰하는 배에 타고 있던 왕자님을 구한 인어공주는 왕자를 보고 그만 한눈에 반해버리고 말았어요.
@@ -78,6 +63,17 @@
     <div class="section3">
         <img src="../images/little_mermaid/11.png"  alt="유리병" class="bottle"/>
         <img src="../images/little_mermaid/10.png"  alt="문어마녀 갑판대" class="desk1"/>
+        <div data-popup="desk1-1-text" class="pop-layer"><img src="../images/little_mermaid/50.png"  alt="조개" class="desk1_1"/></div>
+
+      <script>
+        $(function(){
+          $('.pop-layer').on('click', function(){
+            $('.layerpop.dimmed').css({display:'block'});
+            $( '.layerpop-text.' + $(this).data('popup')).css({display : 'block'});
+          });
+        });
+      </script>
+
         <p class="text3">
             검은 문어는 부작용으로 목소리를 영원히 잃을 수도 있다고 말렸지만 결국 인어공주의 고집에  약을 내주고 말았어요.
             약을 먹고 정말로 목소리는 잃고 다리를 얻은 인어공주는 곧바로 왕자를 찾아갔어요.
@@ -88,7 +84,7 @@
 
     <div class="section4">
         <img src="../images/little_mermaid/8.png"  alt=왕자"" class="prince1"/>
-        <img src="../images/little_mermaid/6.png"  alt="폭죽" class="firecracker"/>
+      <img src="../images/little_mermaid/sprite/firecracker/firecracker1.png"  alt="폭죽" class="firecracker"/>
         <img src="../images/little_mermaid/24.png" alt="엔딩" class="ending"/>
         <p class="text4">
             왕자는 잠시 두 명의 여인을 바라보며 생각에 잠겼어요.
@@ -114,11 +110,11 @@
 
 <footer class="footer">
 
-    <div class="logo"><a href="#" class="logo-link">barmilogo</a></div>
+    <div class="logo"><a href="introduce.html" class="logo-link">barmilogo</a></div>
     <ul class="sns">
-        <li class="sns-item1"><a href="#" class="sns-link1">페이스북</a></li>
-        <li class="sns-item2"><a href="#" class="sns-link2">인스타</a></li>
-        <li class="sns-item3"><a href="#" class="sns-link3">트위터</a></li>
+        <li class="sns-item1"><a href="https://www.facebook.com/" class="sns-link1">페이스북</a></li>
+        <li class="sns-item2"><a href="https://www.instagram.com/" class="sns-link2">인스타</a></li>
+        <li class="sns-item3"><a href="https://twitter.com/" class="sns-link3">트위터</a></li>
         <li class="sns-item4"><a href="#" class="sns-link4">더보기</a></li>
     </ul>
 
@@ -129,7 +125,7 @@
 
 <div class="layerpop dimmed">
 
-  <div class="layerpop-text pumpkin-text">
+  <div class="layerpop-text desk1-1-text">
     <p>pumpkin text</p>
 
 

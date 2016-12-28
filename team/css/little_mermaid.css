@@ -20,7 +20,7 @@ body{
 
 
 .gnb-link{
-  background: url("images/gnb.png") no-repeat;
+  background: url("../images/sub/gnb-text.png") no-repeat;
   z-index: 20;
 }
 
@@ -395,6 +395,15 @@ body{
     left: 43%;
 }
 
+
+.desk1_1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+}
+
 .text3{
 
     position: absolute;
@@ -434,13 +443,12 @@ body{
     left: 17%;
     z-index: 5;
 }
-
 .firecracker{
-    width: 575px;
-    height: 549px;
-    position: absolute;
-    top: 0;
-    left: 56%;
+  width: 575px;
+  height: 549px;
+  position: absolute;
+  top: 0;
+  left: 56%;
 
 }
 
@@ -497,7 +505,7 @@ body{
   height:490px;
 
   text-indent:-99999em;
-  background:url(images/mermaid-sprite.png) no-repeat 0 0;
+  background:url(../images/little_mermaid/sprite/mermaid-sprite.png) no-repeat 0 0;
 }
 
 

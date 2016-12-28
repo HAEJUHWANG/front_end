@@ -1,0 +1,38 @@
+.title{
+  display: none;
+  text-indent: -99999em;
+}
+
+.section{
+  width: 1920px;
+  height: 1080px;
+}
+
+.main-bg{
+  width: 1920px;
+  height: 930px;
+  background: url("main-bg.jpg") no-repeat 0px 0px;
+  background-size: 1920px 930px;
+}
+
+.hospital-img{
+  position: absolute;
+  z-index: 1;
+  top: 630px;
+  left: 700px;
+  width: 110px;
+  height: 130px;
+}
+
+.hospital-img:hover{
+  background: url("hospital-h.png");
+}
+
+.temple-img{
+  position: absolute;
+  z-index: 1;
+  top: 480px;
+  left: 440px;
+  width: 110px;
+  height: 130px;
+}

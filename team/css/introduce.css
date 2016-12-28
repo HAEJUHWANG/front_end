@@ -6,22 +6,32 @@ html, body{
 .container{
   width:100%;
   height:100%;
-  background:url(../images/introduce-bg.png) no-repeat 0 0;\
+  background:url(../images/sub/introduce-bg.png) no-repeat 0 0;
   position:relative;
 }
 
 .introduce-barmi-img{
   position:absolute;
-  top:113px;
-  left:1186px;
-  width:325px;
-  height:520px;
+  top:130px;
+  left:1190px;
+  width:190px;
+  height:320px;
+  /*width:325px;*/
+  /*height:520px;*/
+}
+
+.barmi-bg{
+  position:absolute;
+  top: 180px;;
+  left:1150px;
+  width:847px;
+  height:587px;
 }
 
 .talking-area{
   position:absolute;
-  top:370px;
-  left:609px;
+  top:290px;
+  left:610px;
   width:635px;
   height:400px;
 }

@@ -153,26 +153,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
 
     var i = 1;
@@ -182,37 +162,12 @@ $(document).ready(function() {
         if( i > 6){
             i = 1;
         }
-        $('.princess').attr('src', 'images/img_sprite/king/king' + i + '.png');
+        $('.princess').attr('src', '../images/little_mermaid/sprite/king/king' + i + '.png');
         i++;
 
     }, 520);
 
 });
-
-//
-//$(function(){
-//    $(document).on('scroll',function() {
-//        console.log($(document).scrollLeft());
-//
-//        if ($(document).scrollLeft() >= 2160) {
-//            $('.man').addClass('motion');
-//        }
-//});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -234,10 +189,27 @@ $(document).ready(function() {
         if (i > 4) {
             i = 1;
         }
-        $('.bottle').attr('src', 'images/img_sprite/bottle/bottle' + i + '.png');
+        $('.bottle').attr('src', '../images/little_mermaid/sprite/bottle/bottle' + i + '.png');
         i++;
 
     }, 520);
     });
 
 
+
+
+$(document).ready(function() {
+
+    var i = 1;
+
+    setInterval(function () {
+
+        if( i > 4){
+            i = 1;
+        }
+        $('.firecracker').attr('src', '../images/little_mermaid/sprite/firecracker/firecracker' + i + '.png');
+        i++;
+
+    }, 500);
+
+});
