@@ -544,6 +544,44 @@ body{
 }
 
 
+.pearl-text{
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  margin-left: -345px;
+  display: block;
+  width: 660px;
+  height: 100%;
+  font-size:20px;
+  text-align: center;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+.pop-up{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -48px;
+  width: 96px;
+  height: 43px;
+  background: url("../images/sub/pop-up.png") no-repeat 0 -92px;
+  text-indent: -99999em;
+}
+
+.pearl-info{
+  padding-top: 20px;
+}
+
+.info{
+  display: block;
+  padding-top: 30px;
+  color: #3d0909;
+  line-height: 1.5;
+}
+
+
+
 .close{
     text-indent:-99999em;
     width:14px;

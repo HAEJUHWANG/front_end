@@ -119,10 +119,27 @@
 
 <!-- 모달윈도우영역 -->
 
+
   <div class="layerpop dimmed">
 
-    <div class="layerpop-text pumpkin-text">
-      <p>pumpkin text</p>
+    <div class="layerpop-text">
+
+      <div class=" pumpkin-text">
+        <h1 class="pop-up">pumpkin</h1>
+        <p class="pumpkin-info">
+          늙은 호박에는 천연 에스트로겐 성분인 리그난,<br/> 오메가 -3,리놀렌산이 함유되어 있는데 이 성분들은 여성들의<br/> 갱년기 증상에 효과가 좋으며 피부미용에도 탁월하다.<br/>
+          늙은 호박속의 베타카로틴 성분은 나쁜 콜레스테롤의 산화를 예방, <br/> 콜레스테롤이 혈관 벽에 쌓이는 것을 막아 뇌혈관 질환예방에도 도움이 되고, 면역력을 증진 시키는 효과도 있다.
+      <span class="info">
+        [호박 팩 만들기]<br/>
+        노화방지에 좋은 팩 <br/>
+        *재료*<br/>
+        호박, 꿀 2 큰 스푼, 밀가루 약간, 계란 1개<br/>
+        *만들기*<br/>
+       으깬 호박과 꿀 그리고 계란을 잘 섞어서 얼굴에 <br/> 10-15분 정도 바른 뒤 미온수로 씻어내면 된다.<br/>
+       ※밀가루를 추가하면 팩을 더 단단하게 해 주는 역할을 한다.※
+      </span>
+        </p>
+      </div>
 
 
       <button class="close">close</button>
@@ -130,7 +147,7 @@
         $(function(){
           $('.close').on('click', function(){
             $('.layerpop.dimmed').css({display:'none'});
-            $(this).parent('.layerpop-text').css({display:'none'});
+            $(this).parent('.layerpop-text .pumpkin-text').css({display:'none'});
           });
         });
       </script>

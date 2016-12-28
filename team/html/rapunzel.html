@@ -126,16 +126,30 @@
 
 <div class="layerpop dimmed">
 
-  <div class="layerpop-text cabbage-text">
-    <p>pumpkin text</p>
+  <div class="layerpop-text">
 
+    <div class=" cabbage-text">
+      <h1 class="pop-up">apple</h1>
+      <p class="cabbage-info">
+        양배추에 함유되어있는 카로티노이드라는 성분은 <br/> 항산화 작용을 하기 때문에 노화방지에 탁월하고 그밖에도 <br/> 피지를 조절해주는 작용을 해주기 때문에 여드름에도 효과가 좋으며 <br/> 피부재생, 각질제거 등 피부미용에도 아주 효과적이다. <br/> 또한 양배추의 유황성분은 머리카락의 산화를 방지해주기 때문에 <br/> 건조한 환절기의 모발건강에도 도움이 된다.
+      <span class="info">
+        [양배추 팩 만들기]<br/>
+        지성 피부, 여드름 피부엔 ‘양배추 팩’<br/>
+        *만들기*<br/>
+        ① 양배추는 깨끗이 씻어 적당한 크기로 썰은 다음 믹서에 넣고 곱게 간다.<br/>
+        ② 곱게 간 양배추 15g에 <br/> 밀가루 10g과 플레인 요거트 40g을 넣고 잘 섞는다.<br/>
+        ③ 얼굴에 양배추 팩을 올린다.<br/>
+        ④ 15~20분 뒤 팩을 제거하고 미온수로 깨끗이 세안한다.
+      </span>
+      </p>
+    </div>
 
     <button class="close">close</button>
     <script>
       $(function(){
         $('.close').on('click', function(){
           $('.layerpop.dimmed').css({display:'none'});
-          $(this).parent('.layerpop-text').css({display:'none'});
+          $(this).parent('.layerpop-text .cabbage-text').css({display:'none'});
         });
       });
     </script>
