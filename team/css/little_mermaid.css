@@ -499,7 +499,7 @@ body{
    position:fixed;
    left:50px;
    bottom:40px;
-   z-index: 1000;
+   z-index: 10;
  }
 .mermaid-image{
   width:261px;

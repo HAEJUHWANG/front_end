@@ -10,20 +10,26 @@ document.onmousewheel = ScrollControl;
 
 //¶óÇ¬Á© ½ºÇÁ¶óÀÌÆ®
 
+$(function(){
 
-$(document).ready(function(){
+    var pos = 0;
+    var num = 0;
 
-    var i = 1;
+    $(document).on('scroll', function(){
 
-    setInterval(function(){
-
-        if(i >=8){
-            i=1;
+        if( num >= 8 ){
+            num = 0;
         }
-        $('.rapunzel').attr('src', 'sprite/rapunzel' + i + '.png');
-        i++
 
-    }, 120);
+        pos = num * 903;
+
+        $('.rapunzel-image').css({
+            'background-position' : '0 ' + -pos + 'px'
+        });
+
+        num++;
+
+    });
 
 });
 

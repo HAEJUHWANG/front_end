@@ -28,7 +28,7 @@ body{
   top: 0;
   right: 210px;
   text-indent: -99999em;
-  z-index:9999;
+  z-index:10;
 }
 
 
@@ -283,7 +283,7 @@ from{transform:translate(100px, 0)}
 .text4{
   position:absolute;
   top:193px;
-  left:218px;
+  left:540px;
   z-index:1;
   text-indent:-9999em;
   background:url("../images/rapunzel/rapunzel_text4.png") no-repeat 0 0;
@@ -350,7 +350,7 @@ from{transform:translate(100px, 0)}
   position:fixed;
   top: 0;
   right: 0;
-  z-index:9999;
+  z-index:10;
 }
 
 
@@ -415,8 +415,21 @@ from{transform:translate(100px, 0)}
 
 
 
+/*∂Û«¨¡© Ω∫«¡∂Û¿Ã∆Æ*/
 
+.rapunzel-image-wrap{
+  position:fixed;
+  left:130px;
+  bottom:60px;
+  z-index: 10;
+}
+.rapunzel-image{
+  width: 291px;
+  height: 907px;
 
+  text-indent:-99999em;
+  background:url(../images/rapunzel/sprite/rapunzel-sprite.png) no-repeat 0 0;
+}
 
 
 
